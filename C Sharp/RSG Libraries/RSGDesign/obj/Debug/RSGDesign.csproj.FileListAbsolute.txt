@@ -1,0 +1,14 @@
+R:\Engineering\RSG Applications\RSG Libraries\RSGDesign\bin\Debug\RSGDesign.dll
+R:\Engineering\RSG Applications\RSG Libraries\RSGDesign\bin\Debug\RSGDesign.pdb
+R:\Engineering\RSG Applications\RSG Libraries\RSGDesign\obj\Debug\ResolveAssemblyReference.cache
+R:\Engineering\RSG Applications\RSG Libraries\RSGDesign\obj\Debug\RSGDesign.dll
+R:\Engineering\RSG Applications\RSG Libraries\RSGDesign\obj\Debug\RSGDesign.pdb
+R:\Engineering\RSG Applications\RSG Libraries\RSGDesign\bin\Debug\RainbowDB.dll
+R:\Engineering\RSG Applications\RSG Libraries\RSGDesign\bin\Debug\RainbowDB.pdb
+R:\Engineering\Programming Studio\Development\RSG Libraries\RSGDesign\bin\Debug\RSGDesign.dll
+R:\Engineering\Programming Studio\Development\RSG Libraries\RSGDesign\bin\Debug\RSGDesign.pdb
+R:\Engineering\Programming Studio\Development\RSG Libraries\RSGDesign\bin\Debug\RainbowDB.dll
+R:\Engineering\Programming Studio\Development\RSG Libraries\RSGDesign\bin\Debug\RainbowDB.pdb
+R:\Engineering\Programming Studio\Development\RSG Libraries\RSGDesign\obj\Debug\ResolveAssemblyReference.cache
+R:\Engineering\Programming Studio\Development\RSG Libraries\RSGDesign\obj\Debug\RSGDesign.dll
+R:\Engineering\Programming Studio\Development\RSG Libraries\RSGDesign\obj\Debug\RSGDesign.pdb

@@ -1,0 +1,27 @@
+© Daniel Dubaj
+
+Width: 199.2cm      Height: 12cm
+
+
+Glass usage (scrap factor = 80%):
+307s   Translucent 307s   5 pieces       106.026 centimeters²  x  0,0065 €  =     0,69 €
+A125   Opalucent A125     2 pieces         3.621 centimeters²  x  0,0069 €  =     0,02 €
+       Opalucent 89161s   1 piece         10.695 centimeters²  x  0,0065 €  =     0,07 €
+3591s  Wispy 3591s        3 pieces        28.244 centimeters²  x  0,0097 €  =     0,27 €
+                                        ---------------------                 ----------
+                                         148.585 centimeters²                     1,06 €
+
+
+Square centimeters of glass:        82.547
+Centimeters of came:                80.235
+Centimeters of copper foil:        120.474
+Number of pieces:                       11
+                                                           ----------
+                                                 Subtotal:     1,06 €
+                                                   Profit:         20%
+                                                    TOTAL:     1,27 €
+
+All pieces are colored
+
+
+2010-04-11 13:20:36

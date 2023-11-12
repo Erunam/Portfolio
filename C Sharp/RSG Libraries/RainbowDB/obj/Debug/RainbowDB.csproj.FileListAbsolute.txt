@@ -1,0 +1,10 @@
+R:\Engineering\RSG Applications\RSG Libraries\RainbowDB\bin\Debug\RainbowDB.dll
+R:\Engineering\RSG Applications\RSG Libraries\RainbowDB\bin\Debug\RainbowDB.pdb
+R:\Engineering\RSG Applications\RSG Libraries\RainbowDB\obj\Debug\ResolveAssemblyReference.cache
+R:\Engineering\RSG Applications\RSG Libraries\RainbowDB\obj\Debug\RainbowDB.dll
+R:\Engineering\RSG Applications\RSG Libraries\RainbowDB\obj\Debug\RainbowDB.pdb
+R:\Engineering\Programming Studio\Development\RSG Libraries\RainbowDB\bin\Debug\RainbowDB.dll
+R:\Engineering\Programming Studio\Development\RSG Libraries\RainbowDB\bin\Debug\RainbowDB.pdb
+R:\Engineering\Programming Studio\Development\RSG Libraries\RainbowDB\obj\Debug\ResolveAssemblyReference.cache
+R:\Engineering\Programming Studio\Development\RSG Libraries\RainbowDB\obj\Debug\RainbowDB.dll
+R:\Engineering\Programming Studio\Development\RSG Libraries\RainbowDB\obj\Debug\RainbowDB.pdb

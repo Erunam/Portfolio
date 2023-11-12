@@ -1,0 +1,22 @@
+﻿Kontrolki pobieramy z DataGrid, dla sortowania
+Kontrolki zapisujemy w DataSet.
+
+Nowy rząd można dodać tylko do DataSet jako tablica lub poprzez new row.
+Usunąć rząd normalnie z tablicy, programowo tylko z DataGrid
+
+DataSet.Find(string) - zwraca row który zawiera string w indeksie
+DataSet.IndexOf(row) - zwraca położenie row
+
+
+MySQL;
+	podstawa to MySqlConnectionStringBuilder class, constructor
+	TableMappings.Add("Table","Customers"); - może być potrzebne
+
+BindingContext[rc.Data, "StainedGlassDesign"].EndCurrentEdit();	aktualizuje data source
+	danymi z kontrlek.
+	
+	
+DataGridView
+	DataPropertyName => nazwa kolumny danych która ma być podłączona do kolumny w datagrid
+	
+	Dla ComboBox można dodać datasource, membervalue i datavalue;

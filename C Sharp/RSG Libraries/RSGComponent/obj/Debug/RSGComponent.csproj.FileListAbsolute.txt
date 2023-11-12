@@ -1,0 +1,10 @@
+R:\Engineering\RSG Applications\RSG Libraries\RSGComponent\obj\Debug\ResolveAssemblyReference.cache
+R:\Engineering\RSG Applications\RSG Libraries\RSGComponent\bin\Debug\RSGComponent.dll
+R:\Engineering\RSG Applications\RSG Libraries\RSGComponent\bin\Debug\RSGComponent.pdb
+R:\Engineering\RSG Applications\RSG Libraries\RSGComponent\obj\Debug\RSGComponent.dll
+R:\Engineering\RSG Applications\RSG Libraries\RSGComponent\obj\Debug\RSGComponent.pdb
+R:\Engineering\Programming Studio\Development\RSG Libraries\RSGComponent\bin\Debug\RSGComponent.dll
+R:\Engineering\Programming Studio\Development\RSG Libraries\RSGComponent\bin\Debug\RSGComponent.pdb
+R:\Engineering\Programming Studio\Development\RSG Libraries\RSGComponent\obj\Debug\ResolveAssemblyReference.cache
+R:\Engineering\Programming Studio\Development\RSG Libraries\RSGComponent\obj\Debug\RSGComponent.dll
+R:\Engineering\Programming Studio\Development\RSG Libraries\RSGComponent\obj\Debug\RSGComponent.pdb

@@ -1,0 +1,15 @@
+Y:\Engineering\Information Technology\Rainbow Stained Glass DataBase\Libraries\AutoFilter ListView\WpfAutoFilterListView\bin\Debug\WpfBindingFiltering.exe
+Y:\Engineering\Information Technology\Rainbow Stained Glass DataBase\Libraries\AutoFilter ListView\WpfAutoFilterListView\bin\Debug\WpfBindingFiltering.pdb
+Y:\Engineering\Information Technology\Rainbow Stained Glass DataBase\Libraries\AutoFilter ListView\WpfAutoFilterListView\obj\Debug\ResolveAssemblyReference.cache
+Y:\Engineering\Information Technology\Rainbow Stained Glass DataBase\Libraries\AutoFilter ListView\WpfAutoFilterListView\obj\Debug\Window1.g.cs
+Y:\Engineering\Information Technology\Rainbow Stained Glass DataBase\Libraries\AutoFilter ListView\WpfAutoFilterListView\obj\Debug\App.g.cs
+Y:\Engineering\Information Technology\Rainbow Stained Glass DataBase\Libraries\AutoFilter ListView\WpfAutoFilterListView\obj\Debug\GeneratedInternalTypeHelper.g.cs
+Y:\Engineering\Information Technology\Rainbow Stained Glass DataBase\Libraries\AutoFilter ListView\WpfAutoFilterListView\obj\Debug\WpfBindingFiltering_MarkupCompile.cache
+Y:\Engineering\Information Technology\Rainbow Stained Glass DataBase\Libraries\AutoFilter ListView\WpfAutoFilterListView\obj\Debug\WpfBindingFiltering_MarkupCompile.lref
+Y:\Engineering\Information Technology\Rainbow Stained Glass DataBase\Libraries\AutoFilter ListView\WpfAutoFilterListView\obj\Debug\Controls\FiterListViewDictionary.baml
+Y:\Engineering\Information Technology\Rainbow Stained Glass DataBase\Libraries\AutoFilter ListView\WpfAutoFilterListView\obj\Debug\Window1.baml
+Y:\Engineering\Information Technology\Rainbow Stained Glass DataBase\Libraries\AutoFilter ListView\WpfAutoFilterListView\obj\Debug\WpfBindingFiltering.g.resources
+Y:\Engineering\Information Technology\Rainbow Stained Glass DataBase\Libraries\AutoFilter ListView\WpfAutoFilterListView\obj\Debug\WpfBindingFiltering.Properties.Resources.resources
+Y:\Engineering\Information Technology\Rainbow Stained Glass DataBase\Libraries\AutoFilter ListView\WpfAutoFilterListView\obj\Debug\WPFAutoFilterListView.csproj.GenerateResource.Cache
+Y:\Engineering\Information Technology\Rainbow Stained Glass DataBase\Libraries\AutoFilter ListView\WpfAutoFilterListView\obj\Debug\WpfBindingFiltering.exe
+Y:\Engineering\Information Technology\Rainbow Stained Glass DataBase\Libraries\AutoFilter ListView\WpfAutoFilterListView\obj\Debug\WpfBindingFiltering.pdb

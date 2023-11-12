@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="JobFinder.exe" version="1.0.0.0" publicKeyToken="4d3a78235c0f839c" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="JobFinder" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="JobFinder.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ICSharpCode.SharpZipLib.dll" size="200704">
+      <assemblyIdentity name="ICSharpCode.SharpZipLib" version="0.85.1.271" publicKeyToken="1B03E6ACF1164F73" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>KyajizdK0mQagE2lyhqaKPQ2YpU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JobFinder.exe" size="36864">
+      <assemblyIdentity name="JobFinder" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>At6NChGZ0MbWTlmr7Yj6cAjL4Uo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=LENOVO1\user" issuerKeyHash="539260dd5af1c8fe3d8f85e33e87743b53c0bc5c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>rZyGNR2gflYGkfaoI0l0uVAecnc=</DigestValue></Reference></SignedInfo><SignatureValue>NMfSZTCGD6q/VscO5PrWwfEpExbwH4hdaG4med1bD8Db1D0N71MrOHBTM3Zw5u1Zf9fNoenaTkgQeD5Q62/nSV8yO3lvK2ISYOALLiptJAUHaIyolJc/Q+74m5MzeLECz754ForfdOSk/dk5vFkoh39E2QV/RJr2eJE8QDF1AUc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>6dao0OjLN43rN7/1bMtmri7sPL+mTu/r+Y0IsTHs+SICiTOk56ImqDAlNUqpgozKEduZmW/AwTacNM9Q/6Fntdns2hvawJa9aTtpZ+azvf6ycQJVj+139SlfQBM9fodCvu5wVghKctenRA/7hqNYnHcHqbAvxBoDu3FLu31+scE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="77721e50b9744923a8f69106567ea01d35869cad" Description="" Url=""><as:assemblyIdentity name="JobFinder.exe" version="1.0.0.0" publicKeyToken="4d3a78235c0f839c" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LENOVO1\user</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>lw3Zr42k1dSTbd+IfXVOidN9/zo=</DigestValue></Reference></SignedInfo><SignatureValue>Ick0bvPPOuflj0nFUgJy4UNSm0i6NWYxavM0w9VT5mfGLhFBWvVFxW/Xq/2YgV7NKavNhsbCrGI7jvBYln1nKci5EZnfiGvgCxqp50dtFBuzv2ICadh225Iq9hjyb8ToAu7OwQlEqy/YbrBu7e4ASCz7LruudbIItq9+zEgm5Yg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>6dao0OjLN43rN7/1bMtmri7sPL+mTu/r+Y0IsTHs+SICiTOk56ImqDAlNUqpgozKEduZmW/AwTacNM9Q/6Fntdns2hvawJa9aTtpZ+azvf6ycQJVj+139SlfQBM9fodCvu5wVghKctenRA/7hqNYnHcHqbAvxBoDu3FLu31+scE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBwTCCAS6gAwIBAgIQYP/77bgpIYRArpE2zv0iQjAJBgUrDgMCHQUAMCMxITAfBgNVBAMeGABMAEUATgBPAFYATwAxAFwAdQBzAGUAcjAeFw0wNzAzMjExMDMzNDVaFw0wODAzMjAxNjMzNDVaMCMxITAfBgNVBAMeGABMAEUATgBPAFYATwAxAFwAdQBzAGUAcjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA6dao0OjLN43rN7/1bMtmri7sPL+mTu/r+Y0IsTHs+SICiTOk56ImqDAlNUqpgozKEduZmW/AwTacNM9Q/6Fntdns2hvawJa9aTtpZ+azvf6ycQJVj+139SlfQBM9fodCvu5wVghKctenRA/7hqNYnHcHqbAvxBoDu3FLu31+scECAwEAATAJBgUrDgMCHQUAA4GBAHfd6xFT9XOoz2IHFbc5VlP5vjmcOAEJO3u0fKDYJilj03b1+Wr0CsjYAWL6J9hQJpo9xeB1XWv6fYAvRBAQ0DrzQ3EBKfMYHMmJN4gFC+dAHDW5jaZy1eWG1tJ/Lszs+4Z81dj0mkSRmlKY8ihcpEEOebmQcYLj+P28zW+Hq+kU</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

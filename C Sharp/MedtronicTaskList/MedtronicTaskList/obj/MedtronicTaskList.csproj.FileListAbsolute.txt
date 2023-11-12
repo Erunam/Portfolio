@@ -1,0 +1,14 @@
+D:\Studio Projektowe\Visual Studio\Task List Parser\MedtronicTaskList.Source\MedtronicTaskList\obj\Release\MedtronicTaskList.exe
+D:\Studio Projektowe\Visual Studio\Task List Parser\MedtronicTaskList.Source\MedtronicTaskList\obj\Release\MedtronicTaskList.pdb
+D:\Studio Projektowe\Visual Studio\Task List Parser\MedtronicTaskList.Source\MedtronicTaskList\bin\Release\MedtronicTaskList.exe.manifest
+D:\Studio Projektowe\Visual Studio\Task List Parser\MedtronicTaskList.Source\MedtronicTaskList\bin\Release\MedtronicTaskList.application
+D:\Studio Projektowe\Visual Studio\Task List Parser\MedtronicTaskList.Source\MedtronicTaskList\bin\Release\MedtronicTaskList.exe
+D:\Studio Projektowe\Visual Studio\Task List Parser\MedtronicTaskList.Source\MedtronicTaskList\bin\Release\MedtronicTaskList.pdb
+D:\Studio Projektowe\Visual Studio\Task List Parser\MedtronicTaskList.Source\MedtronicTaskList\obj\Release\ResolveAssemblyReference.cache
+D:\Studio Projektowe\Visual Studio\Task List Parser\MedtronicTaskList.Source\MedtronicTaskList\obj\Release\MedtronicTaskList.AboutBox1.resources
+D:\Studio Projektowe\Visual Studio\Task List Parser\MedtronicTaskList.Source\MedtronicTaskList\obj\Release\MedtronicTaskList.Properties.Resources.resources
+D:\Studio Projektowe\Visual Studio\Task List Parser\MedtronicTaskList.Source\MedtronicTaskList\obj\Release\MedtronicTaskList.TaskList.resources
+D:\Studio Projektowe\Visual Studio\Task List Parser\MedtronicTaskList.Source\MedtronicTaskList\obj\Release\MedtronicTaskList.csproj.GenerateResource.Cache
+D:\Studio Projektowe\Visual Studio\Task List Parser\MedtronicTaskList.Source\MedtronicTaskList\obj\Release\MedtronicTaskList.TrustInfo.xml
+D:\Studio Projektowe\Visual Studio\Task List Parser\MedtronicTaskList.Source\MedtronicTaskList\obj\Release\MedtronicTaskList.exe.manifest
+D:\Studio Projektowe\Visual Studio\Task List Parser\MedtronicTaskList.Source\MedtronicTaskList\obj\Release\MedtronicTaskList.application

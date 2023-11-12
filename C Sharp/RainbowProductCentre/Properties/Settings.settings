@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="RainbowStainedGlass.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="MySqlUser" Type="System.String" Scope="User">
+      <Value Profile="(Default)">RainbowAdmin</Value>
+    </Setting>
+    <Setting Name="MySqlPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)">ekhelebeth72</Value>
+    </Setting>
+    <Setting Name="MySqlServer" Type="System.String" Scope="User">
+      <Value Profile="(Default)">localhost</Value>
+    </Setting>
+    <Setting Name="MySqlPort" Type="System.String" Scope="User">
+      <Value Profile="(Default)">3306</Value>
+    </Setting>
+    <Setting Name="MySqlDatabase" Type="System.String" Scope="User">
+      <Value Profile="(Default)">rainbowstainedglass</Value>
+    </Setting>
+    <Setting Name="MySqlConnection" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Server=localhost; Port=3306; Database=rainbowstainedglass; User Id=RainbowAdmin; Password=ekhelebeth72;</Value>
+    </Setting>
+    <Setting Name="LastDirectory" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>

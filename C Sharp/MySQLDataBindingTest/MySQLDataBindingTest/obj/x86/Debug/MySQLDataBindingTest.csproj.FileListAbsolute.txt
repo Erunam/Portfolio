@@ -1,0 +1,18 @@
+C:\Documents and Settings\Administrator\Ustawienia lokalne\Dane aplikacji\Temporary Projects\MySQLDataBindingTest\bin\Debug\MySQLDataBindingTest.exe
+C:\Documents and Settings\Administrator\Ustawienia lokalne\Dane aplikacji\Temporary Projects\MySQLDataBindingTest\bin\Debug\MySQLDataBindingTest.pdb
+C:\Documents and Settings\Administrator\Ustawienia lokalne\Dane aplikacji\Temporary Projects\MySQLDataBindingTest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\Ustawienia lokalne\Dane aplikacji\Temporary Projects\MySQLDataBindingTest\obj\x86\Debug\MySQLDataBindingTest.Form1.resources
+C:\Documents and Settings\Administrator\Ustawienia lokalne\Dane aplikacji\Temporary Projects\MySQLDataBindingTest\obj\x86\Debug\MySQLDataBindingTest.Properties.Resources.resources
+C:\Documents and Settings\Administrator\Ustawienia lokalne\Dane aplikacji\Temporary Projects\MySQLDataBindingTest\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\Ustawienia lokalne\Dane aplikacji\Temporary Projects\MySQLDataBindingTest\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\Ustawienia lokalne\Dane aplikacji\Temporary Projects\MySQLDataBindingTest\obj\x86\Debug\MySQLDataBindingTest.exe
+C:\Documents and Settings\Administrator\Ustawienia lokalne\Dane aplikacji\Temporary Projects\MySQLDataBindingTest\obj\x86\Debug\MySQLDataBindingTest.pdb
+d:\visual studio 2010\Projects\MySQLDataBindingTest\MySQLDataBindingTest\obj\x86\Debug\MySQLDataBindingTest.exe
+d:\visual studio 2010\Projects\MySQLDataBindingTest\MySQLDataBindingTest\obj\x86\Debug\MySQLDataBindingTest.pdb
+d:\visual studio 2010\Projects\MySQLDataBindingTest\MySQLDataBindingTest\bin\Debug\MySQLDataBindingTest.exe
+d:\visual studio 2010\Projects\MySQLDataBindingTest\MySQLDataBindingTest\bin\Debug\MySQLDataBindingTest.pdb
+d:\visual studio 2010\Projects\MySQLDataBindingTest\MySQLDataBindingTest\obj\x86\Debug\ResolveAssemblyReference.cache
+d:\visual studio 2010\Projects\MySQLDataBindingTest\MySQLDataBindingTest\obj\x86\Debug\MySQLDataBindingTest.Form1.resources
+d:\visual studio 2010\Projects\MySQLDataBindingTest\MySQLDataBindingTest\obj\x86\Debug\MySQLDataBindingTest.Properties.Resources.resources
+d:\visual studio 2010\Projects\MySQLDataBindingTest\MySQLDataBindingTest\obj\x86\Debug\GenerateResource.read.1.tlog
+d:\visual studio 2010\Projects\MySQLDataBindingTest\MySQLDataBindingTest\obj\x86\Debug\GenerateResource.write.1.tlog

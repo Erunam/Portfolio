@@ -1,0 +1,16 @@
+D:\Inżynieria Chemiczna CPD\Visual Studio\Task List Parser\MedtronicTaskList.Source\MedtronicTaskList\obj\Release\MedtronicTaskList.exe
+D:\Inżynieria Chemiczna CPD\Visual Studio\Task List Parser\MedtronicTaskList.Source\MedtronicTaskList\obj\Release\MedtronicTaskList.pdb
+D:\Inżynieria Chemiczna CPD\Visual Studio\Task List Parser\MedtronicTaskList.Source\MedtronicTaskList\bin\Release\MedtronicTaskList.exe.manifest
+D:\Inżynieria Chemiczna CPD\Visual Studio\Task List Parser\MedtronicTaskList.Source\MedtronicTaskList\bin\Release\MedtronicTaskList.application
+D:\Inżynieria Chemiczna CPD\Visual Studio\Task List Parser\MedtronicTaskList.Source\MedtronicTaskList\bin\Release\MedtronicTaskList.exe
+D:\Inżynieria Chemiczna CPD\Visual Studio\Task List Parser\MedtronicTaskList.Source\MedtronicTaskList\bin\Release\MedtronicTaskList.pdb
+D:\Inżynieria Chemiczna CPD\Visual Studio\Task List Parser\MedtronicTaskList.Source\MedtronicTaskList\obj\Release\ResolveAssemblyReference.cache
+D:\Inżynieria Chemiczna CPD\Visual Studio\Task List Parser\MedtronicTaskList.Source\MedtronicTaskList\obj\Release\MedtronicTaskList.AboutBox1.resources
+D:\Inżynieria Chemiczna CPD\Visual Studio\Task List Parser\MedtronicTaskList.Source\MedtronicTaskList\obj\Release\MedtronicTaskList.Properties.Resources.resources
+D:\Inżynieria Chemiczna CPD\Visual Studio\Task List Parser\MedtronicTaskList.Source\MedtronicTaskList\obj\Release\MedtronicTaskList.TaskList.resources
+D:\Inżynieria Chemiczna CPD\Visual Studio\Task List Parser\MedtronicTaskList.Source\MedtronicTaskList\obj\Release\MedtronicTaskList.csproj.GenerateResource.Cache
+D:\Inżynieria Chemiczna CPD\Visual Studio\Task List Parser\MedtronicTaskList.Source\MedtronicTaskList\obj\Release\MedtronicTaskList.TrustInfo.xml
+D:\Inżynieria Chemiczna CPD\Visual Studio\Task List Parser\MedtronicTaskList.Source\MedtronicTaskList\obj\Release\MedtronicTaskList.exe.manifest
+D:\Inżynieria Chemiczna CPD\Visual Studio\Task List Parser\MedtronicTaskList.Source\MedtronicTaskList\obj\Release\MedtronicTaskList.application
+D:\Programming\Visual Studio Projects\Task List Parser\MedtronicTaskList.Source\MedtronicTaskList\obj\Release\MedtronicTaskList.exe
+D:\Programming\Visual Studio Projects\Task List Parser\MedtronicTaskList.Source\MedtronicTaskList\obj\Release\MedtronicTaskList.pdb

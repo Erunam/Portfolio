@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<DBMODEL Version="1.0" TYPE="MySQL">
+<MODELSETTINGS MDDVERSION="1.9.8 (build 509)" ModelProject="Rainbow Stained Glass Database" ModelName="RSG Database Design" ModelCompany="Rainbow Stained Glass" ModelAuthor="Daniel Dubaj" ModelVersion="1.66" ModelVersionAI="1" ModelCreated="2009-09-27 14:57:44" MaintainModelUpdated="1" ModelCopyright="\169 Daniel Dubaj" ModelUpdated="2009-09-27 15:01:42" Description="" Annotation="" ZoomFac="100.00" XPos="437" YPos="0" PrintLink="object MDDPrinterLink: TcxImageReportLink\n  Active = True\n  Component = fmPrintImage.imPrint\n  DesignerCaption = \aFormat Output\a\n  PrinterPage.DMPaper = 9\n  PrinterPage.Footer = 200\n  PrinterPage.Header = 200\n  PrinterPage.Margins.Bottom = 500\n  PrinterPage.Margins.Left = 500\n  PrinterPage.Margins.Right = 500\n  PrinterPage.Margins.Top = 500\n  PrinterPage.Orientation = poLandscape\n  PrinterPage.PageFooter.CenterTitle.Strings = (\n    \a\a)\n  PrinterPage.PageFooter.LeftTitle.Strings = (\n    \a\a)\n  PrinterPage.PageFooter.RightTitle.Strings = (\n    \a\a)\n  PrinterPage.PageHeader.CenterTitle.Strings = (\n    \a\a)\n  PrinterPage.PageHeader.LeftTitle.Strings = (\n    \a\a)\n  PrinterPage.PageHeader.RightTitle.Strings = (\n    \a\a)\n  PrinterPage.PageOrder = poDownThenOver\n  PrinterPage.PageSize.X = 8300\n  PrinterPage.PageSize.Y = 11700\n  PrinterPage._dxMeasurementUnits_ = 1\n  PrinterPage._dxLastMU_ = 1\n  ReportDocument.CreationDate = 38745.893309814810000000\n  Center = True\n  TransparentColor = clWhite\n  BuiltInReportLink = True\nend\n" WorkspaceColor="16777215" SnapGrid="1" DisplaySnap="1" SnapSize="10" ShowPages="1" ShowTableColumns="1" ShowTableIndeces="1" ShowColumnTypes="1" ShowDomains="0" ShowIndexInd="1" ShowNullInd="1" ShowForeignKeys="1" EntityFillColor="16777215" EntityLineColor="8388608" EntityFontColor="0" ShowTableColumnComment="1" ShowTableTriggers="1" ShowTableComment="1" ShowMaxEnumItems="3" ShowRefName="1" ShowCardinality="0" ShowJoin="0" Notation="0" RefColor="8388608" RefLabelColor="16777215" RefLabelFontColor="0" DefaultDelete="3" DefaultUpdate="3" DefaultTableType="4" DefaultDataType="5" CreateFKRef="1" FKPrefix="" QueryDelimiter=";" DBQuoteCharacter="`" EncloseNames="1" HPageCount="5" VPageCount="5" SPFillColor="13499135" SPLineColor="8388608" SPFontColor="0" ViewFillColor="3329434" ViewLineColor="8388608" ViewFontColor="0" TrimSPBody="0" MinimapBackColor="16777215" MinimapShapesStyle="2" MinimapVisibleAreaStyle="2" />
+<GENERATIONSETTINGS TextCharCase="2" NameInComment="0" ModelCheck="1" ISQL="1" Delimiter="||" TypeInsteadOfEngine="0">
+  <DBGENSETTINGS DBCreate="1" BeginScript="1" Comment="0" Drop="1" EndScript="0" />
+  <FKGENSETTINGS CreateFK="1" GenerateInsideTables="1" />
+  <SPGENSETTINGS BeginScript="0" Comment="0" Drop="0" EndScript="0" SPCreate="1" OrderStr="" />
+  <TABLEGENSETTINGS Annotation="0" BeginScript="0" Comment="1" CreateIndex="1" CreateOption="1" CreatePK="1" Drop="0" EndScript="0" TableCreate="1" TriggersCreate="1" TriggersDrop="0" PartitionsCreate="1" OrderStr="MaterialClass,ComponentConfiguration,ProductConfiguration,ComponentCategory,Product,ComponentDetails,ProductDetails,ComponentAndPart,StainedGlassDesign" />
+  <VIEWGENSETTINGS BeginScript="0" Comment="0" Drop="0" EndScript="0" ViewCreate="1" />
+  <EVENTGENSETTINGS BeginScript="0" Comment="0" Drop="0" EndScript="0" EventCreate="1" OrderStr="" />
+</GENERATIONSETTINGS>
+<DATABASE Name="RainbowStainedGlass" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" />
+<STAMPS>
+</STAMPS>
+<DOMAINS>
+</DOMAINS>
+<METADATA>
+<ENTITIES>
+<ENTITY ID="1000" Name="Product" Comments="Tabela g\179\243wna produktu." LineColor="8388608" FillColor="10025880" FontColor="0" XPos="10" YPos="40" Type="4" RowFormat="0" Temporary="0" RowChecksum="0" PackKeys="0" DelayKeyTblUpdates="0" MinRowNumber="0" MaxRowNumber="0" CharacterSet="" Collate="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" PartitioningType="0" PartitioningIsLinear="1" PartitionsNum="2" PartitioningExpression="" SubPartitioningType="0" SubPartitioningIsLinear="0" SubPartitionsNum="2" SubPartitioningExpression="" >
+<COLUMNS>
+<COLUMN ID="1002" Name="ProductID" DomainID="-1" Pos="0" Datatype="3" Type="INT" Width="6" Prec="0" NotNull="1" Unsigned="1" ZeroFill="0" Binary="0" AutoInc="1" PrimaryKey="1" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1003" Name="Name" DomainID="-1" Pos="1" Datatype="14" Type="VARCHAR" Width="24" Prec="0" NotNull="1" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="unikalna nazwa" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1004" Name="Size" DomainID="-1" Pos="2" Datatype="14" Type="VARCHAR" Width="12" Prec="0" NotNull="1" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="S, L, M, XM" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1005" Name="Product" DomainID="-1" Pos="3" Datatype="14" Type="VARCHAR" Width="50" Prec="0" NotNull="1" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="produkt sprzedawany - stained glass, mosaic" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1006" Name="ProductCategory" DomainID="-1" Pos="4" Datatype="14" Type="VARCHAR" Width="50" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1007" Name="ProductSubCategory" DomainID="-1" Pos="5" Datatype="14" Type="VARCHAR" Width="50" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1008" Name="ProductTheme" DomainID="-1" Pos="6" Datatype="14" Type="VARCHAR" Width="50" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1009" Name="ProductCollection" DomainID="-1" Pos="7" Datatype="14" Type="VARCHAR" Width="50" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1037" Name="TotalCostLo" DomainID="-1" Pos="8" Datatype="5" Type="FLOAT" Width="9" Prec="3" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="0" Comments="uaktualniane - koszt robocizny i materia\179u" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1038" Name="WarehousePriceLo" DomainID="-1" Pos="9" Datatype="5" Type="FLOAT" Width="9" Prec="3" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="0" Comments="uaktualniane - cena hurtowa" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1039" Name="RRPriceLo" DomainID="-1" Pos="10" Datatype="5" Type="FLOAT" Width="9" Prec="3" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="0" Comments="uaktualniane - cena detaliczna" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1040" Name="VatPriceLo" DomainID="-1" Pos="11" Datatype="5" Type="FLOAT" Width="9" Prec="3" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="0" Comments="uaktualniane - cena detaliczna z vatem" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1041" Name="TotalCostHi" DomainID="-1" Pos="12" Datatype="5" Type="FLOAT" Width="9" Prec="3" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="0" Comments="uaktualniane" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1042" Name="WarehousePriceHi" DomainID="-1" Pos="13" Datatype="5" Type="FLOAT" Width="9" Prec="3" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="0" Comments="uaktualniane" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1043" Name="RRPriceHi" DomainID="-1" Pos="14" Datatype="5" Type="FLOAT" Width="9" Prec="3" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="0" Comments="uaktualniane" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1044" Name="VatPriceHi" DomainID="-1" Pos="15" Datatype="5" Type="FLOAT" Width="9" Prec="3" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="0" Comments="uaktualniane" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1241" Name="WarehousePrice" DomainID="-1" Pos="16" Datatype="5" Type="FLOAT" Width="9" Prec="3" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="0" Comments="uaktualniane - ustalona cena hurtowa" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1242" Name="RetailPrice" DomainID="-1" Pos="17" Datatype="5" Type="FLOAT" Width="9" Prec="3" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="0" Comments="uaktualniane - ustalona cena detaliczna" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1045" Name="Weight" DomainID="-1" Pos="18" Datatype="5" Type="FLOAT" Width="9" Prec="3" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="0" Comments="wprowadzane - waga" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1175" Name="Width" DomainID="-1" Pos="19" Datatype="5" Type="FLOAT" Width="9" Prec="3" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="0" Comments="wprowadzane - ca\179kowita szeroko\156\230" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1176" Name="Height" DomainID="-1" Pos="20" Datatype="5" Type="FLOAT" Width="9" Prec="3" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="0" Comments="wprowadzane - ca\179kowita d\179ugo\156\230" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1177" Name="Deep" DomainID="-1" Pos="21" Datatype="5" Type="FLOAT" Width="9" Prec="3" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="0" Comments="wprowadzane - ca\179kowita grubo\156\230" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1012" Name="AWP" DomainID="-1" Pos="22" Datatype="5" Type="FLOAT" Width="9" Prec="3" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="0" Comments="wprowadzane - WP w\179asne" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1218" Name="CWP" DomainID="-1" Pos="23" Datatype="5" Type="FLOAT" Width="9" Prec="3" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="uaktualniane - WP komponent\243w" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1220" Name="TWP" DomainID="-1" Pos="24" Datatype="5" Type="FLOAT" Width="9" Prec="3" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="uaktualniane - WP ca\179kowite" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1219" Name="MC" DomainID="-1" Pos="25" Datatype="5" Type="FLOAT" Width="9" Prec="3" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="uaktualniane - koszt materia\179u" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1361" Name="Description" DomainID="-1" Pos="26" Datatype="20" Type="TEXT" Width="0" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+</COLUMNS>
+<REFERENCES_BEGIN>
+<REFERENCE_BEGIN ID="1395" />
+</REFERENCES_BEGIN>
+<INDEXES>
+<INDEX ID="1011" Name="PRIMARY" Primary="1" Unique="0" FullText="0" Reference_ID="-1">
+<INDEXCOLUMNS>
+<INDEXCOLUMN ID="1002=" />
+</INDEXCOLUMNS>
+</INDEX>
+<INDEX ID="1164" Name="ProductName" Primary="0" Unique="0" FullText="0" Reference_ID="-1">
+<INDEXCOLUMNS>
+<INDEXCOLUMN ID="1003=" />
+<INDEXCOLUMN ID="1004=" />
+</INDEXCOLUMNS>
+</INDEX>
+<INDEX ID="1165" Name="Categories" Primary="0" Unique="0" FullText="0" Reference_ID="-1">
+<INDEXCOLUMNS>
+<INDEXCOLUMN ID="1006=" />
+<INDEXCOLUMN ID="1007=" />
+<INDEXCOLUMN ID="1008=" />
+<INDEXCOLUMN ID="1009=" />
+</INDEXCOLUMNS>
+</INDEX>
+</INDEXES>
+</ENTITY>
+<ENTITY ID="1221" Name="ComponentAndPart" Comments="Lista dost\234pnych komponent\243w i cz\234\156ci." LineColor="8388608" FillColor="10025880" FontColor="0" XPos="1030" YPos="30" Type="4" RowFormat="0" Temporary="0" RowChecksum="0" PackKeys="0" DelayKeyTblUpdates="0" MinRowNumber="0" MaxRowNumber="0" CharacterSet="" Collate="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" PartitioningType="0" PartitioningIsLinear="1" PartitionsNum="2" PartitioningExpression="" SubPartitioningType="0" SubPartitioningIsLinear="0" SubPartitionsNum="2" SubPartitioningExpression="" >
+<COLUMNS>
+<COLUMN ID="1382" Name="ComponentID" DomainID="-1" Pos="0" Datatype="3" Type="INT" Width="11" Prec="0" NotNull="1" Unsigned="1" ZeroFill="0" Binary="0" AutoInc="1" PrimaryKey="1" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1243" Name="ComponentName" DomainID="-1" Pos="1" Datatype="14" Type="VARCHAR" Width="24" Prec="0" NotNull="1" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="Nazwa komponentu" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1244" Name="Attribute" DomainID="-1" Pos="2" Datatype="14" Type="VARCHAR" Width="12" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="Atrybut" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1249" Name="Group" DomainID="-1" Pos="3" Datatype="23" Type="ENUM" Width="0" Prec="0" NotNull="1" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="\aComponent\a,\aPart\a" DefaultValue="\aComponent\a" Comments="Rozr\243\191nia cz\234\156\230 od komponentu" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1439" Name="ComponentCategory" DomainID="-1" Pos="4" Datatype="14" Type="VARCHAR" Width="50" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="1" Values="" DefaultValue="" Comments="Domy\156lna kategoria komponentu" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1475" Name="PartClass" DomainID="-1" Pos="5" Datatype="14" Type="VARCHAR" Width="50" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="1" Values="" DefaultValue="" Comments="Domy\156lna klasa cz\234\156ci" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1250" Name="AWP" DomainID="-1" Pos="6" Datatype="5" Type="FLOAT" Width="9" Prec="3" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="0" Comments="wprowadzane WP w\179asne" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1251" Name="CWP" DomainID="-1" Pos="7" Datatype="5" Type="FLOAT" Width="9" Prec="3" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="0" Comments="uaktualniane - WP cz\234\156ci sk\179adowych" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1252" Name="MC" DomainID="-1" Pos="8" Datatype="5" Type="FLOAT" Width="9" Prec="3" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="0" Comments="uaktualniane - koszt materia\179u" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1360" Name="Description" DomainID="-1" Pos="9" Datatype="20" Type="TEXT" Width="0" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+</COLUMNS>
+<REFERENCES_BEGIN>
+<REFERENCE_BEGIN ID="1398" />
+<REFERENCE_BEGIN ID="1401" />
+<REFERENCE_BEGIN ID="1404" />
+<REFERENCE_BEGIN ID="1411" />
+<REFERENCE_BEGIN ID="1488" />
+</REFERENCES_BEGIN>
+<REFERENCES_END>
+<REFERENCE_END ID="1445" />
+<REFERENCE_END ID="1474" />
+</REFERENCES_END>
+<INDEXES>
+<INDEX ID="1245" Name="PRIMARY" Primary="1" Unique="0" FullText="0" Reference_ID="-1">
+<INDEXCOLUMNS>
+<INDEXCOLUMN ID="1382=" />
+</INDEXCOLUMNS>
+</INDEX>
+<INDEX ID="1387" Name="ComponentName" Primary="0" Unique="0" FullText="0" Reference_ID="-1">
+<INDEXCOLUMNS>
+<INDEXCOLUMN ID="1243=" />
+<INDEXCOLUMN ID="1244=" />
+</INDEXCOLUMNS>
+</INDEX>
+</INDEXES>
+</ENTITY>
+<ENTITY ID="1253" Name="ComponentDetails" Comments="" LineColor="8388608" FillColor="10025880" FontColor="0" XPos="1690" YPos="30" Type="4" RowFormat="0" Temporary="0" RowChecksum="0" PackKeys="0" DelayKeyTblUpdates="0" MinRowNumber="0" MaxRowNumber="0" CharacterSet="" Collate="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" PartitioningType="0" PartitioningIsLinear="1" PartitionsNum="2" PartitioningExpression="" SubPartitioningType="0" SubPartitioningIsLinear="0" SubPartitionsNum="2" SubPartitioningExpression="" >
+<COLUMNS>
+<COLUMN ID="1405" Name="ComponentID" DomainID="-1" Pos="0" Datatype="3" Type="INT" Width="11" Prec="0" NotNull="1" Unsigned="1" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="1" Values="" DefaultValue="0" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1486" Name="PartClass" DomainID="-1" Pos="1" Datatype="14" Type="VARCHAR" Width="50" Prec="0" NotNull="1" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="1" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1489" Name="PartID" DomainID="-1" Pos="2" Datatype="3" Type="INT" Width="11" Prec="0" NotNull="1" Unsigned="1" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="1" Values="" DefaultValue="0" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1261" Name="Quantity" DomainID="-1" Pos="3" Datatype="5" Type="FLOAT" Width="9" Prec="3" NotNull="1" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="0" Comments="ilo\156\230" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+</COLUMNS>
+<REFERENCES_END>
+<REFERENCE_END ID="1404" />
+<REFERENCE_END ID="1485" />
+<REFERENCE_END ID="1488" />
+</REFERENCES_END>
+<INDEXES>
+<INDEX ID="1406" Name="ComponentID" Primary="0" Unique="0" FullText="0" Reference_ID="1404">
+<INDEXCOLUMNS>
+<INDEXCOLUMN ID="1405=" />
+</INDEXCOLUMNS>
+</INDEX>
+</INDEXES>
+</ENTITY>
+<ENTITY ID="1254" Name="ProductDetails" Comments="Tabela pomocnicza. Szczeg\243\179owy wykaz cz\234\156ci sk\179adowych." LineColor="8388608" FillColor="10025880" FontColor="0" XPos="530" YPos="460" Type="4" RowFormat="0" Temporary="0" RowChecksum="0" PackKeys="0" DelayKeyTblUpdates="0" MinRowNumber="0" MaxRowNumber="0" CharacterSet="" Collate="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" PartitioningType="0" PartitioningIsLinear="1" PartitionsNum="2" PartitioningExpression="" SubPartitioningType="0" SubPartitioningIsLinear="0" SubPartitionsNum="2" SubPartitioningExpression="" >
+<COLUMNS>
+<COLUMN ID="1396" Name="ProductID" DomainID="-1" Pos="0" Datatype="3" Type="INT" Width="6" Prec="0" NotNull="1" Unsigned="1" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="1" Values="" DefaultValue="0" Comments="klucz obcy produktu" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1268" Name="ComponentCategory" DomainID="-1" Pos="1" Datatype="14" Type="VARCHAR" Width="50" Prec="0" NotNull="1" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="1" Values="" DefaultValue="" Comments="Nazwa cz\234\156ci sk\179adowej" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1412" Name="ComponentID" DomainID="-1" Pos="2" Datatype="3" Type="INT" Width="11" Prec="0" NotNull="1" Unsigned="1" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="1" Values="" DefaultValue="0" Comments="klucz obcy komponentu" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1269" Name="Quantity" DomainID="-1" Pos="3" Datatype="5" Type="FLOAT" Width="9" Prec="3" NotNull="1" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="0" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+</COLUMNS>
+<REFERENCES_END>
+<REFERENCE_END ID="1395" />
+<REFERENCE_END ID="1411" />
+<REFERENCE_END ID="1428" />
+</REFERENCES_END>
+<INDEXES>
+<INDEX ID="1397" Name="ProductID" Primary="0" Unique="0" FullText="0" Reference_ID="1395">
+<INDEXCOLUMNS>
+<INDEXCOLUMN ID="1396=" />
+</INDEXCOLUMNS>
+</INDEX>
+</INDEXES>
+</ENTITY>
+<ENTITY ID="1293" Name="ProductConfiguration" Comments="Definiuje cz\234\156ci sk\179adowe produktu." LineColor="8388608" FillColor="10025880" FontColor="0" XPos="490" YPos="40" Type="4" RowFormat="0" Temporary="0" RowChecksum="0" PackKeys="0" DelayKeyTblUpdates="0" MinRowNumber="0" MaxRowNumber="0" CharacterSet="" Collate="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" PartitioningType="0" PartitioningIsLinear="1" PartitionsNum="2" PartitioningExpression="" SubPartitioningType="0" SubPartitioningIsLinear="0" SubPartitionsNum="2" SubPartitioningExpression="" >
+<COLUMNS>
+<COLUMN ID="1294" Name="Product" DomainID="-1" Pos="0" Datatype="14" Type="VARCHAR" Width="50" Prec="0" NotNull="1" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="Produkt" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1295" Name="ProductCategory" DomainID="-1" Pos="1" Datatype="14" Type="VARCHAR" Width="50" Prec="0" NotNull="1" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="Kategoria produktu" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1415" Name="ProductSubCategory" DomainID="-1" Pos="2" Datatype="14" Type="VARCHAR" Width="50" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="all" Comments="Podkategoria produktu" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1296" Name="ComponentCategory" DomainID="-1" Pos="3" Datatype="14" Type="VARCHAR" Width="50" Prec="0" NotNull="1" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="1" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1399" Name="ComponentID" DomainID="-1" Pos="4" Datatype="3" Type="INT" Width="11" Prec="0" NotNull="0" Unsigned="1" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="1" Values="" DefaultValue="0" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+</COLUMNS>
+<REFERENCES_END>
+<REFERENCE_END ID="1398" />
+<REFERENCE_END ID="1435" />
+</REFERENCES_END>
+<INDEXES>
+<INDEX ID="1416" Name="ProductClass" Primary="0" Unique="0" FullText="0" Reference_ID="-1">
+<INDEXCOLUMNS>
+<INDEXCOLUMN ID="1294=" />
+<INDEXCOLUMN ID="1295=" />
+<INDEXCOLUMN ID="1415=" />
+</INDEXCOLUMNS>
+</INDEX>
+</INDEXES>
+</ENTITY>
+<ENTITY ID="1318" Name="ComponentConfiguration" Comments="Cz\234\156ci sk\179adowe komponent\243w." LineColor="8388608" FillColor="10025880" FontColor="0" XPos="1050" YPos="460" Type="4" RowFormat="0" Temporary="0" RowChecksum="0" PackKeys="0" DelayKeyTblUpdates="0" MinRowNumber="0" MaxRowNumber="0" CharacterSet="" Collate="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" PartitioningType="0" PartitioningIsLinear="1" PartitionsNum="2" PartitioningExpression="" SubPartitioningType="0" SubPartitioningIsLinear="0" SubPartitionsNum="2" SubPartitioningExpression="" >
+<COLUMNS>
+<COLUMN ID="1465" Name="ComponentCategory" DomainID="-1" Pos="0" Datatype="14" Type="VARCHAR" Width="50" Prec="0" NotNull="1" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="1" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1472" Name="PartClass" DomainID="-1" Pos="1" Datatype="14" Type="VARCHAR" Width="50" Prec="0" NotNull="1" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="1" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1402" Name="ComponentID" DomainID="-1" Pos="2" Datatype="3" Type="INT" Width="11" Prec="0" NotNull="0" Unsigned="1" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="1" Values="" DefaultValue="0" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+</COLUMNS>
+<REFERENCES_END>
+<REFERENCE_END ID="1401" />
+<REFERENCE_END ID="1464" />
+<REFERENCE_END ID="1471" />
+</REFERENCES_END>
+</ENTITY>
+<ENTITY ID="1326" Name="StainedGlassDesign" Comments="Tabela Projekt\243w dla Stained Glass" LineColor="8388608" FillColor="10025880" FontColor="0" XPos="1730" YPos="220" Type="4" RowFormat="0" Temporary="0" RowChecksum="0" PackKeys="0" DelayKeyTblUpdates="0" MinRowNumber="0" MaxRowNumber="0" CharacterSet="" Collate="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" PartitioningType="0" PartitioningIsLinear="1" PartitionsNum="2" PartitioningExpression="" SubPartitioningType="0" SubPartitioningIsLinear="0" SubPartitionsNum="2" SubPartitioningExpression="" >
+<COLUMNS>
+<COLUMN ID="1327" Name="DesignID" DomainID="-1" Pos="0" Datatype="3" Type="INT" Width="4" Prec="0" NotNull="1" Unsigned="1" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="1" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1336" Name="DesignName" DomainID="-1" Pos="1" Datatype="14" Type="VARCHAR" Width="24" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1337" Name="DesignSize" DomainID="-1" Pos="2" Datatype="14" Type="VARCHAR" Width="12" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1338" Name="Width" DomainID="-1" Pos="3" Datatype="5" Type="FLOAT" Width="9" Prec="3" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1339" Name="Height" DomainID="-1" Pos="4" Datatype="5" Type="FLOAT" Width="9" Prec="3" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1340" Name="Deep" DomainID="-1" Pos="5" Datatype="5" Type="FLOAT" Width="9" Prec="3" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1341" Name="TotalElements" DomainID="-1" Pos="6" Datatype="5" Type="FLOAT" Width="9" Prec="3" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1342" Name="TotalPerimeter" DomainID="-1" Pos="7" Datatype="5" Type="FLOAT" Width="9" Prec="3" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1343" Name="SolderLine" DomainID="-1" Pos="8" Datatype="5" Type="FLOAT" Width="9" Prec="3" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1344" Name="TotalArea" DomainID="-1" Pos="9" Datatype="5" Type="FLOAT" Width="9" Prec="3" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1345" Name="GrindedPerimeter" DomainID="-1" Pos="10" Datatype="5" Type="FLOAT" Width="9" Prec="3" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1346" Name="ScrapFactor" DomainID="-1" Pos="11" Datatype="5" Type="FLOAT" Width="9" Prec="3" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1347" Name="LayoutFactor" DomainID="-1" Pos="12" Datatype="5" Type="FLOAT" Width="9" Prec="3" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1348" Name="Author" DomainID="-1" Pos="13" Datatype="14" Type="VARCHAR" Width="50" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1349" Name="LicenseType" DomainID="-1" Pos="14" Datatype="14" Type="VARCHAR" Width="50" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1350" Name="EnteredBy" DomainID="-1" Pos="15" Datatype="14" Type="VARCHAR" Width="50" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1351" Name="DateEnter" DomainID="-1" Pos="16" Datatype="8" Type="DATE" Width="0" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1352" Name="ReviewedBy" DomainID="-1" Pos="17" Datatype="14" Type="VARCHAR" Width="50" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1353" Name="DateReview" DomainID="-1" Pos="18" Datatype="8" Type="DATE" Width="0" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1354" Name="ValidationOrder" DomainID="-1" Pos="19" Datatype="3" Type="INT" Width="11" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1355" Name="DateAccepted" DomainID="-1" Pos="20" Datatype="8" Type="DATE" Width="0" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1356" Name="Comments" DomainID="-1" Pos="21" Datatype="20" Type="TEXT" Width="0" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+</COLUMNS>
+<INDEXES>
+<INDEX ID="1328" Name="PRIMARY" Primary="1" Unique="0" FullText="0" Reference_ID="-1">
+<INDEXCOLUMNS>
+<INDEXCOLUMN ID="1327=" />
+</INDEXCOLUMNS>
+</INDEX>
+</INDEXES>
+</ENTITY>
+<ENTITY ID="1417" Name="ComponentCategory" Comments="Lista cz\234\156ci sk\179adowych dla produkt\243w." LineColor="8388608" FillColor="10025880" FontColor="0" XPos="600" YPos="260" Type="4" RowFormat="0" Temporary="0" RowChecksum="0" PackKeys="0" DelayKeyTblUpdates="0" MinRowNumber="0" MaxRowNumber="0" CharacterSet="" Collate="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" PartitioningType="0" PartitioningIsLinear="1" PartitionsNum="2" PartitioningExpression="" SubPartitioningType="0" SubPartitioningIsLinear="0" SubPartitionsNum="2" SubPartitioningExpression="" >
+<COLUMNS>
+<COLUMN ID="1421" Name="ComponentCategory" DomainID="-1" Pos="0" Datatype="14" Type="VARCHAR" Width="50" Prec="0" NotNull="1" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="1" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1422" Name="Description" DomainID="-1" Pos="1" Datatype="20" Type="TEXT" Width="0" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+</COLUMNS>
+<REFERENCES_BEGIN>
+<REFERENCE_BEGIN ID="1428" />
+<REFERENCE_BEGIN ID="1435" />
+<REFERENCE_BEGIN ID="1445" />
+<REFERENCE_BEGIN ID="1464" />
+</REFERENCES_BEGIN>
+<INDEXES>
+<INDEX ID="1420" Name="PRIMARY" Primary="1" Unique="0" FullText="0" Reference_ID="-1">
+<INDEXCOLUMNS>
+<INDEXCOLUMN ID="1421=" />
+</INDEXCOLUMNS>
+</INDEX>
+</INDEXES>
+</ENTITY>
+<ENTITY ID="1467" Name="MaterialClass" Comments="Lista cz\234\156ci sk\179adowych komponent\243w." LineColor="8388608" FillColor="10025880" FontColor="0" XPos="1360" YPos="310" Type="4" RowFormat="0" Temporary="0" RowChecksum="0" PackKeys="0" DelayKeyTblUpdates="0" MinRowNumber="0" MaxRowNumber="0" CharacterSet="" Collate="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" PartitioningType="0" PartitioningIsLinear="1" PartitionsNum="2" PartitioningExpression="" SubPartitioningType="0" SubPartitioningIsLinear="0" SubPartitionsNum="2" SubPartitioningExpression="" >
+<COLUMNS>
+<COLUMN ID="1468" Name="PartClass" DomainID="-1" Pos="0" Datatype="14" Type="VARCHAR" Width="50" Prec="0" NotNull="1" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="1" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1469" Name="Description" DomainID="-1" Pos="1" Datatype="20" Type="TEXT" Width="0" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+</COLUMNS>
+<REFERENCES_BEGIN>
+<REFERENCE_BEGIN ID="1471" />
+<REFERENCE_BEGIN ID="1474" />
+<REFERENCE_BEGIN ID="1485" />
+</REFERENCES_BEGIN>
+<INDEXES>
+<INDEX ID="1470" Name="PRIMARY" Primary="1" Unique="0" FullText="0" Reference_ID="-1">
+<INDEXCOLUMNS>
+<INDEXCOLUMN ID="1468=" />
+</INDEXCOLUMNS>
+</INDEX>
+</INDEXES>
+</ENTITY>
+</ENTITIES>
+<REFERENCES>
+<REFERENCE  ID="1395" Name="ProductDetails" Comments="" SOURCE="1000" DESTINATION="1254" FKIDS="1002=1396\n" RefColor="8388608" RefLabelColor="16777215" RefLabelFontColor="0" OnDelete="3" OnUpdate="3" Description="" Annotation="" Generate="1" FKIndex_ID="1397" ParentKeyIndexID="1011" AutoColumnIDs="1396\n" />
+<REFERENCE  ID="1398" Name="ComponentInConfiguration" Comments="" SOURCE="1221" DESTINATION="1293" FKIDS="1382=1399\n" RefColor="8388608" RefLabelColor="16777215" RefLabelFontColor="0" OnDelete="3" OnUpdate="3" Description="" Annotation="" Generate="1" FKIndex_ID="-1" ParentKeyIndexID="1245" AutoColumnIDs="1399\n" />
+<REFERENCE  ID="1401" Name="PartsInConfiguration" Comments="" SOURCE="1221" DESTINATION="1318" FKIDS="1382=1402\n" RefColor="8388608" RefLabelColor="16777215" RefLabelFontColor="0" OnDelete="3" OnUpdate="3" Description="" Annotation="" Generate="1" FKIndex_ID="-1" ParentKeyIndexID="1245" AutoColumnIDs="1402\n" />
+<REFERENCE  ID="1404" Name="ComponentDetails" Comments="" SOURCE="1221" DESTINATION="1253" FKIDS="1382=1405\n" RefColor="8388608" RefLabelColor="16777215" RefLabelFontColor="0" OnDelete="3" OnUpdate="3" Description="" Annotation="" Generate="1" FKIndex_ID="1406" ParentKeyIndexID="1245" AutoColumnIDs="1405\n" />
+<REFERENCE  ID="1411" Name="ComponentsInProduct" Comments="" SOURCE="1221" DESTINATION="1254" FKIDS="1382=1412\n" RefColor="8388608" RefLabelColor="16777215" RefLabelFontColor="0" OnDelete="3" OnUpdate="3" Description="" Annotation="" Generate="1" FKIndex_ID="-1" ParentKeyIndexID="1245" AutoColumnIDs="1412\n" />
+<REFERENCE  ID="1428" Name="ComponentsCategoriesForProduct" Comments="" SOURCE="1417" DESTINATION="1254" FKIDS="1421=1268\n" RefColor="8388608" RefLabelColor="16777215" RefLabelFontColor="0" OnDelete="3" OnUpdate="3" Description="" Annotation="" Generate="1" FKIndex_ID="-1" ParentKeyIndexID="1420" AutoColumnIDs="" />
+<REFERENCE  ID="1435" Name="ComponentsCategoriesForConfiguration" Comments="" SOURCE="1417" DESTINATION="1293" FKIDS="1421=1296\n" RefColor="8388608" RefLabelColor="16777215" RefLabelFontColor="0" OnDelete="3" OnUpdate="3" Description="" Annotation="" Generate="1" FKIndex_ID="-1" ParentKeyIndexID="1420" AutoColumnIDs="" />
+<REFERENCE  ID="1445" Name="ComponentCategoriesInParts" Comments="" SOURCE="1417" DESTINATION="1221" FKIDS="1421=1439\n" RefColor="8388608" RefLabelColor="16777215" RefLabelFontColor="0" OnDelete="3" OnUpdate="3" Description="" Annotation="" Generate="1" FKIndex_ID="-1" ParentKeyIndexID="1420" AutoColumnIDs="" />
+<REFERENCE  ID="1464" Name="ComponentCategoriesConfiguration" Comments="" SOURCE="1417" DESTINATION="1318" FKIDS="1421=1465\n" RefColor="8388608" RefLabelColor="16777215" RefLabelFontColor="0" OnDelete="3" OnUpdate="3" Description="" Annotation="" Generate="1" FKIndex_ID="-1" ParentKeyIndexID="1420" AutoColumnIDs="1465\n" />
+<REFERENCE  ID="1471" Name="PartClassInConfiguration" Comments="" SOURCE="1467" DESTINATION="1318" FKIDS="1468=1472\n" RefColor="8388608" RefLabelColor="16777215" RefLabelFontColor="0" OnDelete="3" OnUpdate="3" Description="" Annotation="" Generate="1" FKIndex_ID="-1" ParentKeyIndexID="1470" AutoColumnIDs="1472\n" />
+<REFERENCE  ID="1474" Name="PartClassInComponents" Comments="" SOURCE="1467" DESTINATION="1221" FKIDS="1468=1475\n" RefColor="8388608" RefLabelColor="16777215" RefLabelFontColor="0" OnDelete="3" OnUpdate="3" Description="" Annotation="" Generate="1" FKIndex_ID="-1" ParentKeyIndexID="1470" AutoColumnIDs="1475\n" />
+<REFERENCE  ID="1485" Name="PartClassInDetails" Comments="" SOURCE="1467" DESTINATION="1253" FKIDS="1468=1486\n" RefColor="8388608" RefLabelColor="16777215" RefLabelFontColor="0" OnDelete="3" OnUpdate="3" Description="" Annotation="" Generate="1" FKIndex_ID="-1" ParentKeyIndexID="1470" AutoColumnIDs="1486\n" />
+<REFERENCE  ID="1488" Name="PartIdInDetails" Comments="" SOURCE="1221" DESTINATION="1253" FKIDS="1382=1489\n" RefColor="8388608" RefLabelColor="16777215" RefLabelFontColor="0" OnDelete="3" OnUpdate="3" Description="" Annotation="" Generate="1" FKIndex_ID="-1" ParentKeyIndexID="1245" AutoColumnIDs="1489\n" />
+</REFERENCES>
+<NOTES>
+</NOTES>
+<STOREDPROCES>
+</STOREDPROCES>
+<VIEWS>
+</VIEWS>
+<EVENTS>
+</EVENTS>
+</METADATA>
+</DBMODEL>

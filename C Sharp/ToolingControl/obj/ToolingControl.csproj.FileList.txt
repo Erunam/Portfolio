@@ -1,0 +1,8 @@
+bin\Debug\ToolongControl.exe
+bin\Debug\ToolongControl.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ToolongControl.Tooling.resources
+obj\Debug\ToolongControl.Properties.Resources.resources
+obj\Debug\ToolingControl.csproj.GenerateResource.Cache
+obj\Debug\ToolongControl.exe
+obj\Debug\ToolongControl.pdb

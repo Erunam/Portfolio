@@ -1,0 +1,9 @@
+d:\visual studio 2010\Projects\MySQLDataBindingTest\MySQLDataBindingTest\bin\Release\MySQLDataBindingTest.exe
+d:\visual studio 2010\Projects\MySQLDataBindingTest\MySQLDataBindingTest\bin\Release\MySQLDataBindingTest.pdb
+d:\visual studio 2010\Projects\MySQLDataBindingTest\MySQLDataBindingTest\obj\x86\Release\ResolveAssemblyReference.cache
+d:\visual studio 2010\Projects\MySQLDataBindingTest\MySQLDataBindingTest\obj\x86\Release\MySQLDataBindingTest.Form1.resources
+d:\visual studio 2010\Projects\MySQLDataBindingTest\MySQLDataBindingTest\obj\x86\Release\MySQLDataBindingTest.Properties.Resources.resources
+d:\visual studio 2010\Projects\MySQLDataBindingTest\MySQLDataBindingTest\obj\x86\Release\GenerateResource.read.1.tlog
+d:\visual studio 2010\Projects\MySQLDataBindingTest\MySQLDataBindingTest\obj\x86\Release\GenerateResource.write.1.tlog
+d:\visual studio 2010\Projects\MySQLDataBindingTest\MySQLDataBindingTest\obj\x86\Release\MySQLDataBindingTest.exe
+d:\visual studio 2010\Projects\MySQLDataBindingTest\MySQLDataBindingTest\obj\x86\Release\MySQLDataBindingTest.pdb

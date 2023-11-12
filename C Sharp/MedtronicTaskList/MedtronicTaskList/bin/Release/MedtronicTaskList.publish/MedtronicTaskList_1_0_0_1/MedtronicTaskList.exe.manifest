@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="MedtronicTaskList.exe" version="1.0.0.1" publicKeyToken="ec5819243442c73f" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="MedtronicTaskList" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="MedtronicTaskList.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MedtronicTaskList.exe" size="57344">
+      <assemblyIdentity name="MedtronicTaskList" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>0fK1cSBS9uf1Pf9zL8U8ddsdFN0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=MADZI\Administrator" issuerKeyHash="9bea8c426c407df7b72d87bd4ae496225fd751fa" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>23TPTSh07PobW9kFuSHULBSGLsI=</DigestValue></Reference></SignedInfo><SignatureValue>fwFQrUtUzFE6/2tQIeKIiWqMJWU3EvWg3szDUQyebK61/M26+H7cJLo2zaKJ+zuCrB1ZufGO2rqN9RiSx05lpIRLObHfwgC69o1j7Nyhpgz+1HpWcGAWFs2PaWz4LxsQycfsNzxUF9rqc9j5C/I8mdZ6tmKu+NWNM+NwyWjy73o=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qIDniiXRnmuxFCSTB04Rge2np59G/DvtGR8TD2TxuOc88mGTrfkYdYTm+x8DHpDkw9kdN/SSdSX02wYAJIL0db7yCaxg2C/p5BfwSrR5awHc5q+Tde8vNtTAgMMG80GJ3Ghz6SSLOfiRtJDNlyoYOMfshX7B9f+0Rl9l1hZ1TY0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c22e86142cd421b905d95b1bfaec74284dcf74db" Description="" Url=""><as:assemblyIdentity name="MedtronicTaskList.exe" version="1.0.0.1" publicKeyToken="ec5819243442c73f" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MADZI\Administrator</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>h6llEMxsjbI2rNEEUupjKCcvdfk=</DigestValue></Reference></SignedInfo><SignatureValue>RVy4rhjhJd8tjAI9HuLphH4UW0bEI7uKH/V8OOLf55CPBjfsonCS7yCStVEdYncbL0YvbVj5Qc2sYPR5VLZGd5YOiED8dzVlBxONdrakWiiV/eFKdV3KXQDd1yvfDce2iF6ZLa4lNykwfh5XvtZDfacHegTuUaG4wOX8/0qqdfE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qIDniiXRnmuxFCSTB04Rge2np59G/DvtGR8TD2TxuOc88mGTrfkYdYTm+x8DHpDkw9kdN/SSdSX02wYAJIL0db7yCaxg2C/p5BfwSrR5awHc5q+Tde8vNtTAgMMG80GJ3Ghz6SSLOfiRtJDNlyoYOMfshX7B9f+0Rl9l1hZ1TY0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUqgAwIBAgIQgHdB+M5hrolKX+/pjDutQDAJBgUrDgMCHQUAMDExLzAtBgNVBAMeJgBNAEEARABaAEkAXABBAGQAbQBpAG4AaQBzAHQAcgBhAHQAbwByMB4XDTA4MDIxNDIyMzQ1OFoXDTA5MDIxNDA0MzQ1OFowMTEvMC0GA1UEAx4mAE0AQQBEAFoASQBcAEEAZABtAGkAbgBpAHMAdAByAGEAdABvAHIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKiA54ol0Z5rsRQkkwdOEYHtp6efRvw77RkfEw9k8bjnPPJhk635GHWE5vsfAx6Q5MPZHTf0knUl9NsGACSC9HW+8gmsYNgv6eQX8Eq0eWsB3Oavk3XvLzbUwIDDBvNBidxoc+kkizn4kbSQzZcqGDjH7IV+wfX/tEZfZdYWdU2NAgMBAAEwCQYFKw4DAh0FAAOBgQBAmP6LBItiyNmKOcOtjVHygKm/HDKwX54jytQmZITbfwY8bJn5yJIZhZ9DuXy6O7cKPoPv5hm1vlxK0Mz4pbk1+PQVywWI8Vi9uj4W4GBYSsLvVl1hMaI/hw+OkQUrl0lqF55yvLoQYdDPztXtdBIjSodP9/7AeWSqLkgJFb0FcA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

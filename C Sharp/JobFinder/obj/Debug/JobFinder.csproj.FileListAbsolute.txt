@@ -1,0 +1,2 @@
+D:\Programming\Visual Studio Projects\JobFinder\obj\Debug\JobFinder.exe
+D:\Programming\Visual Studio Projects\JobFinder\obj\Debug\JobFinder.pdb

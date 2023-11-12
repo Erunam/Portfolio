@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<DBMODEL Version="2" TYPE="MySQL">
+<MODELSETTINGS MDDVERSION="2.0.0 (build 221)" ModelProject="" ModelName="SP-S05 - Storage Books" ModelCompany="" ModelAuthor="" ModelVersion="" ModelVersionAI="0" ModelCreated="2011-03-13 18:25:42" MaintainModelUpdated="1" ModelCopyright="\00A9" ModelUpdated="2011-03-21 00:00:00" Description="" Annotation="" ZoomFac="100.00" XPos="1232" YPos="300" PrintLink="" WorkspaceColor="16777215" SnapGrid="1" DisplaySnap="1" SnapSize="10" ShowPages="1" ShowTableColumns="1" ShowTableIndeces="1" ShowColumnTypes="1" ShowDomains="0" ShowIndexInd="0" ShowNullInd="0" ShowForeignKeys="1" EntityFillColor="16777215" EntityLineColor="8388608" EntityFontColor="0" ShowTableColumnComment="0" ShowTableTriggers="1" ShowTableComment="0" ShowMaxEnumItems="3" ShowRefName="1" ShowCardinality="0" ShowJoin="0" Notation="0" RefColor="8388608" RefLabelColor="16777215" RefLabelFontColor="0" DefaultDelete="3" DefaultUpdate="3" DefaultTableType="4" DefaultDataType="14" CreateFKRef="0" FKPrefix="" QueryDelimiter=";" DBQuoteCharacter="`" EncloseNames="1" HPageCount="10" VPageCount="10" SPFillColor="13499135" SPLineColor="8388608" SPFontColor="0" ViewFillColor="3329434" ViewLineColor="8388608" ViewFontColor="0" TrimSPBody="0" MinimapBackColor="16777215" MinimapShapesStyle="2" MinimapVisibleAreaStyle="2" />
+<GENERATIONSETTINGS TextCharCase="2" NameInComment="0" ModelCheck="1" ISQL="0" Delimiter="||" TypeInsteadOfEngine="0">
+  <DBGENSETTINGS DBCreate="0" BeginScript="0" Comment="0" Drop="0" EndScript="0" />
+  <FKGENSETTINGS CreateFK="1" GenerateInsideTables="1" />
+  <SPGENSETTINGS BeginScript="0" Comment="0" Drop="1" EndScript="1" SPCreate="1" OrderStr="" />
+  <TABLEGENSETTINGS Annotation="0" BeginScript="0" Comment="1" CreateIndex="1" CreateOption="1" CreatePK="1" Drop="1" EndScript="0" TableCreate="1" TriggersCreate="1" TriggersDrop="0" PartitionsCreate="1" ColumnCharset="1" OrderStr="Suppliers Stock,Stock Register,Manufacturers Stock,Cost Codes,Part Class,Parts Assignment,Stock Framework,Storage Assignment,Classification,Accounts,Currencies,Transactions" />
+  <VIEWGENSETTINGS BeginScript="0" Comment="0" Drop="1" EndScript="0" ViewCreate="1" />
+  <EVENTGENSETTINGS BeginScript="0" Comment="0" Drop="1" EndScript="0" EventCreate="1" OrderStr="" />
+</GENERATIONSETTINGS>
+<DATABASE Name="Database_1" CharacterSet="" Collate="" Comments="" Description="" Annotation="" BeginScript="" EndScript="" Generate="0" />
+<DOMAINS>
+<DOMAIN ID="1042" Name="CharKeyP" DataType="14" Type="VARCHAR" Width="24" Prec="0" NotNull="1" Unsigned="0" Zerofill="0" Binary="0" AutoInc="0" PrimaryKey="1" Values="" DefaultValue="" Comments=""TimestampOnUpdate="0" CharacterSet=""Collate="">
+</DOMAIN>
+<DOMAIN ID="1043" Name="CharKeyF" DataType="14" Type="VARCHAR" Width="24" Prec="0" NotNull="0" Unsigned="0" Zerofill="0" Binary="0" AutoInc="0" PrimaryKey="0" Values="" DefaultValue="" Comments=""TimestampOnUpdate="0" CharacterSet=""Collate="">
+</DOMAIN>
+<DOMAIN ID="1049" Name="Text" DataType="20" Type="TEXT" Width="0" Prec="0" NotNull="0" Unsigned="0" Zerofill="0" Binary="0" AutoInc="0" PrimaryKey="0" Values="" DefaultValue="" Comments=""TimestampOnUpdate="0" CharacterSet=""Collate="">
+</DOMAIN>
+<DOMAIN ID="1073" Name="Varchar50" DataType="14" Type="VARCHAR" Width="50" Prec="0" NotNull="0" Unsigned="0" Zerofill="0" Binary="0" AutoInc="0" PrimaryKey="0" Values="" DefaultValue="" Comments=""TimestampOnUpdate="0" CharacterSet=""Collate="">
+</DOMAIN>
+<DOMAIN ID="1104" Name="IDShort" DataType="3" Type="INT" Width="2" Prec="0" NotNull="1" Unsigned="0" Zerofill="0" Binary="0" AutoInc="0" PrimaryKey="1" Values="" DefaultValue="" Comments=""TimestampOnUpdate="0" CharacterSet=""Collate="">
+</DOMAIN>
+<DOMAIN ID="1105" Name="IDMedium" DataType="3" Type="INT" Width="5" Prec="0" NotNull="1" Unsigned="0" Zerofill="0" Binary="0" AutoInc="0" PrimaryKey="1" Values="" DefaultValue="" Comments=""TimestampOnUpdate="0" CharacterSet=""Collate="">
+</DOMAIN>
+<DOMAIN ID="1106" Name="IDFull" DataType="3" Type="INT" Width="11" Prec="0" NotNull="1" Unsigned="0" Zerofill="0" Binary="0" AutoInc="0" PrimaryKey="1" Values="" DefaultValue="" Comments=""TimestampOnUpdate="0" CharacterSet=""Collate="">
+</DOMAIN>
+<DOMAIN ID="1201" Name="IDShortFK" DataType="3" Type="INT" Width="2" Prec="0" NotNull="1" Unsigned="0" Zerofill="0" Binary="0" AutoInc="0" PrimaryKey="0" Values="" DefaultValue="" Comments=""TimestampOnUpdate="0" CharacterSet=""Collate="">
+</DOMAIN>
+<DOMAIN ID="1202" Name="IDMediumFK" DataType="3" Type="INT" Width="5" Prec="0" NotNull="1" Unsigned="0" Zerofill="0" Binary="0" AutoInc="0" PrimaryKey="0" Values="" DefaultValue="" Comments=""TimestampOnUpdate="0" CharacterSet=""Collate="">
+</DOMAIN>
+<DOMAIN ID="1203" Name="IDFullFK" DataType="3" Type="INT" Width="11" Prec="0" NotNull="1" Unsigned="0" Zerofill="0" Binary="0" AutoInc="0" PrimaryKey="0" Values="" DefaultValue="" Comments=""TimestampOnUpdate="0" CharacterSet=""Collate="">
+</DOMAIN>
+<DOMAIN ID="1247" Name="Number4" DataType="7" Type="DECIMAL" Width="12" Prec="4" NotNull="0" Unsigned="0" Zerofill="0" Binary="0" AutoInc="0" PrimaryKey="0" Values="" DefaultValue="" Comments=""TimestampOnUpdate="0" CharacterSet=""Collate="">
+</DOMAIN>
+<DOMAIN ID="1248" Name="Number8" DataType="7" Type="DECIMAL" Width="14" Prec="8" NotNull="0" Unsigned="0" Zerofill="0" Binary="0" AutoInc="0" PrimaryKey="0" Values="" DefaultValue="" Comments=""TimestampOnUpdate="0" CharacterSet=""Collate="">
+</DOMAIN>
+<DOMAIN ID="1284" Name="UnitChar" DataType="14" Type="VARCHAR" Width="6" Prec="0" NotNull="0" Unsigned="0" Zerofill="0" Binary="0" AutoInc="0" PrimaryKey="0" Values="" DefaultValue="" Comments=""TimestampOnUpdate="0" CharacterSet=""Collate="">
+</DOMAIN>
+<DOMAIN ID="1604" Name="CharKeyF-Index" DataType="14" Type="VARCHAR" Width="24" Prec="0" NotNull="1" Unsigned="0" Zerofill="0" Binary="0" AutoInc="0" PrimaryKey="0" Values="" DefaultValue="" Comments=""TimestampOnUpdate="0" CharacterSet=""Collate="">
+</DOMAIN>
+<DOMAIN ID="1951" Name="CurrencyP" DataType="13" Type="CHAR" Width="3" Prec="0" NotNull="1" Unsigned="0" Zerofill="0" Binary="0" AutoInc="0" PrimaryKey="1" Values="" DefaultValue="" Comments=""TimestampOnUpdate="0" CharacterSet=""Collate="">
+</DOMAIN>
+<DOMAIN ID="1952" Name="Currency" DataType="13" Type="CHAR" Width="3" Prec="0" NotNull="1" Unsigned="0" Zerofill="0" Binary="0" AutoInc="0" PrimaryKey="0" Values="" DefaultValue="EUR" Comments=""TimestampOnUpdate="0" CharacterSet=""Collate="">
+</DOMAIN>
+<DOMAIN ID="2011" Name="Date" DataType="8" Type="DATE" Width="0" Prec="0" NotNull="1" Unsigned="0" Zerofill="0" Binary="0" AutoInc="0" PrimaryKey="0" Values="" DefaultValue="" Comments=""TimestampOnUpdate="0" CharacterSet=""Collate="">
+</DOMAIN>
+<DOMAIN ID="2051" Name="Money" DataType="7" Type="DECIMAL" Width="11" Prec="2" NotNull="1" Unsigned="0" Zerofill="0" Binary="0" AutoInc="0" PrimaryKey="0" Values="" DefaultValue="" Comments=""TimestampOnUpdate="0" CharacterSet=""Collate="">
+</DOMAIN>
+</DOMAINS>
+<METADATA>
+<GROUPS>
+<GROUP  ID="1890" Name="Storage" Comments="" XPos="1400" YPos="1030" Width="1121" Height="621" Color="16443110" Transparency="255"/>
+<GROUP  ID="1891" Name="Finance" Comments="" XPos="1400" YPos="380" Width="731" Height="641" Color="14480885" Transparency="255"/>
+</GROUPS>
+<STAMPS>
+</STAMPS>
+<ENTITIES>
+<ENTITY ID="1042" Name="Part Class" Comments="" LineColor="8388608" FillColor="13959039" FontColor="0" XPos="1900" YPos="930" Type="4" RowFormat="0" Temporary="0" RowChecksum="0" PackKeys="0" DelayKeyTblUpdates="0" MinRowNumber="0" MaxRowNumber="0" CharacterSet="" Collate="" Description="Specifies available classes for purchased parts." Annotation="" BeginScript="" EndScript="" Generate="1" PartitioningType="0" PartitioningIsLinear="1" PartitionsNum="2" PartitioningExpression="" SubPartitioningType="0" SubPartitioningIsLinear="0" SubPartitionsNum="2" SubPartitioningExpression="" >
+<COLUMNS>
+<COLUMN ID="1053" Name="Part Class" DomainID="1042" Pos="1" Datatype="14" Type="VARCHAR" Width="24" Prec="0" NotNull="1" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="1" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1054" Name="Description" DomainID="1049" Pos="2" Datatype="20" Type="TEXT" Width="0" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+</COLUMNS>
+<REFERENCES_BEGIN>
+<REFERENCE_BEGIN ID="1081" />
+<REFERENCE_BEGIN ID="1087" />
+<REFERENCE_BEGIN ID="1156" />
+</REFERENCES_BEGIN>
+<INDEXES>
+<INDEX ID="1056" Name="PRIMARY" Primary="1" Unique="0" FullText="0" Reference_ID="-1">
+<INDEXCOLUMNS>
+<INDEXCOLUMN ColumnID="1053=" />
+</INDEXCOLUMNS>
+</INDEX>
+</INDEXES>
+</ENTITY>
+<ENTITY ID="1057" Name="Cost Codes" Comments="" LineColor="8388608" FillColor="13959039" FontColor="0" XPos="1430" YPos="880" Type="4" RowFormat="0" Temporary="0" RowChecksum="0" PackKeys="0" DelayKeyTblUpdates="0" MinRowNumber="0" MaxRowNumber="0" CharacterSet="" Collate="" Description="Provides categorisation of purchased articles for analysis and determine treatment of goods for tax purpose." Annotation="" BeginScript="" EndScript="" Generate="1" PartitioningType="0" PartitioningIsLinear="1" PartitionsNum="2" PartitioningExpression="" SubPartitioningType="0" SubPartitioningIsLinear="0" SubPartitionsNum="2" SubPartitioningExpression="" >
+<COLUMNS>
+<COLUMN ID="1058" Name="Cost Code" DomainID="1104" Pos="1" Datatype="3" Type="INT" Width="2" Prec="0" NotNull="1" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="1" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1059" Name="Cost Class" DomainID="1043" Pos="2" Datatype="14" Type="VARCHAR" Width="24" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1060" Name="Part Class" DomainID="1043" Pos="3" Datatype="14" Type="VARCHAR" Width="24" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="1" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1061" Name="Description" DomainID="1049" Pos="4" Datatype="20" Type="TEXT" Width="0" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1062" Name="Tax Classification" DomainID="1073" Pos="5" Datatype="14" Type="VARCHAR" Width="50" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1063" Name="Tax Form Index" DomainID="-1" Pos="6" Datatype="3" Type="INT" Width="3" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+</COLUMNS>
+<REFERENCES_BEGIN>
+<REFERENCE_BEGIN ID="1165" />
+</REFERENCES_BEGIN>
+<REFERENCES_END>
+<REFERENCE_END ID="1081" />
+</REFERENCES_END>
+<INDEXES>
+<INDEX ID="1065" Name="PRIMARY" Primary="1" Unique="0" FullText="0" Reference_ID="-1">
+<INDEXCOLUMNS>
+<INDEXCOLUMN ColumnID="1058=" />
+</INDEXCOLUMNS>
+</INDEX>
+</INDEXES>
+</ENTITY>
+<ENTITY ID="1082" Name="Parts Assignment" Comments="" LineColor="8388608" FillColor="16775408" FontColor="0" GroupID="1890" XPos="1910" YPos="1120" Type="4" RowFormat="0" Temporary="0" RowChecksum="0" PackKeys="0" DelayKeyTblUpdates="0" MinRowNumber="0" MaxRowNumber="0" CharacterSet="" Collate="" Description="Listing of Parts and their reference to Part Class." Annotation="" BeginScript="" EndScript="" Generate="1" PartitioningType="0" PartitioningIsLinear="1" PartitionsNum="2" PartitioningExpression="" SubPartitioningType="0" SubPartitioningIsLinear="0" SubPartitionsNum="2" SubPartitioningExpression="" >
+<COLUMNS>
+<COLUMN ID="1083" Name="Part" DomainID="1042" Pos="1" Datatype="14" Type="VARCHAR" Width="24" Prec="0" NotNull="1" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="1" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1084" Name="Part Class" DomainID="1043" Pos="2" Datatype="14" Type="VARCHAR" Width="24" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="1" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+</COLUMNS>
+<REFERENCES_BEGIN>
+<REFERENCE_BEGIN ID="1336" />
+<REFERENCE_BEGIN ID="1474" />
+<REFERENCE_BEGIN ID="1490" />
+<REFERENCE_BEGIN ID="1771" />
+</REFERENCES_BEGIN>
+<REFERENCES_END>
+<REFERENCE_END ID="1087" />
+</REFERENCES_END>
+<INDEXES>
+<INDEX ID="1086" Name="PRIMARY" Primary="1" Unique="0" FullText="0" Reference_ID="-1">
+<INDEXCOLUMNS>
+<INDEXCOLUMN ColumnID="1083=" />
+</INDEXCOLUMNS>
+</INDEX>
+</INDEXES>
+</ENTITY>
+<ENTITY ID="1091" Name="Stock Framework" Comments="" LineColor="8388608" FillColor="16775408" FontColor="0" GroupID="1890" XPos="1420" YPos="1300" Type="4" RowFormat="0" Temporary="0" RowChecksum="0" PackKeys="0" DelayKeyTblUpdates="0" MinRowNumber="0" MaxRowNumber="0" CharacterSet="" Collate="" Description="Specifies storage system." Annotation="" BeginScript="" EndScript="" Generate="1" PartitioningType="0" PartitioningIsLinear="1" PartitionsNum="2" PartitioningExpression="" SubPartitioningType="0" SubPartitioningIsLinear="0" SubPartitionsNum="2" SubPartitioningExpression="" >
+<COLUMNS>
+<COLUMN ID="1092" Name="Stock Id" DomainID="1104" Pos="1" Datatype="3" Type="INT" Width="2" Prec="0" NotNull="1" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="1" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1126" Name="Stock Title" DomainID="-1" Pos="2" Datatype="14" Type="VARCHAR" Width="36" Prec="0" NotNull="1" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1127" Name="Description" DomainID="1073" Pos="3" Datatype="14" Type="VARCHAR" Width="50" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1128" Name="Function" DomainID="-1" Pos="4" Datatype="23" Type="ENUM" Width="0" Prec="0" NotNull="1" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="\aRegister\a,\aStock\a,\aWarehouse\a" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1129" Name="Storage Book" DomainID="1049" Pos="5" Datatype="20" Type="TEXT" Width="0" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1130" Name="Attachments Localisation" DomainID="1049" Pos="6" Datatype="20" Type="TEXT" Width="0" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1131" Name="Attachment Sub 1" DomainID="1073" Pos="7" Datatype="14" Type="VARCHAR" Width="50" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1132" Name="Attachment Sub 2" DomainID="1073" Pos="8" Datatype="14" Type="VARCHAR" Width="50" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1133" Name="Usage" DomainID="-1" Pos="9" Datatype="23" Type="ENUM" Width="0" Prec="0" NotNull="1" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="\aIn Use\a,\aNot In Use\a" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+</COLUMNS>
+<REFERENCES_BEGIN>
+<REFERENCE_BEGIN ID="1150" />
+</REFERENCES_BEGIN>
+<INDEXES>
+<INDEX ID="1124" Name="PRIMARY" Primary="1" Unique="0" FullText="0" Reference_ID="-1">
+<INDEXCOLUMNS>
+<INDEXCOLUMN ColumnID="1092=" />
+</INDEXCOLUMNS>
+</INDEX>
+<INDEX ID="1148" Name="Stock Title" Primary="0" Unique="1" FullText="0" Reference_ID="-1">
+<INDEXCOLUMNS>
+<INDEXCOLUMN ColumnID="1126=" />
+</INDEXCOLUMNS>
+</INDEX>
+</INDEXES>
+</ENTITY>
+<ENTITY ID="1135" Name="Storage Assignment" Comments="" LineColor="8388608" FillColor="16775408" FontColor="0" GroupID="1890" XPos="1430" YPos="1110" Type="4" RowFormat="0" Temporary="0" RowChecksum="0" PackKeys="0" DelayKeyTblUpdates="0" MinRowNumber="0" MaxRowNumber="0" CharacterSet="" Collate="" Description="Describes content of stocks and cost codes associated to article in reference to its class and storage location" Annotation="" BeginScript="" EndScript="" Generate="1" PartitioningType="0" PartitioningIsLinear="1" PartitionsNum="2" PartitioningExpression="" SubPartitioningType="0" SubPartitioningIsLinear="0" SubPartitionsNum="2" SubPartitioningExpression="" >
+<COLUMNS>
+<COLUMN ID="1175" Name="Part Class_FK" DomainID="-1" Pos="1" Datatype="14" Type="VARCHAR" Width="24" Prec="0" NotNull="1" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="1" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1177" Name="Cost Code_FK" DomainID="-1" Pos="2" Datatype="3" Type="INT" Width="2" Prec="0" NotNull="1" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="1" Values="" DefaultValue="0" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1179" Name="Stock Title_FK" DomainID="-1" Pos="3" Datatype="14" Type="VARCHAR" Width="36" Prec="0" NotNull="1" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="1" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+</COLUMNS>
+<REFERENCES_END>
+<REFERENCE_END ID="1150" />
+<REFERENCE_END ID="1156" />
+<REFERENCE_END ID="1165" />
+</REFERENCES_END>
+<INDEXES>
+<INDEX ID="1536" Name="FullIndex" Primary="0" Unique="1" FullText="0" Reference_ID="-1">
+<INDEXCOLUMNS>
+<INDEXCOLUMN ColumnID="1175=" />
+<INDEXCOLUMN ColumnID="1177=" />
+<INDEXCOLUMN ColumnID="1179=" />
+</INDEXCOLUMNS>
+</INDEX>
+</INDEXES>
+</ENTITY>
+<ENTITY ID="1180" Name="Stock Register" Comments="" LineColor="8388608" FillColor="16775408" FontColor="0" GroupID="1890" XPos="1740" YPos="1250" Type="4" RowFormat="0" Temporary="0" RowChecksum="0" PackKeys="0" DelayKeyTblUpdates="0" MinRowNumber="0" MaxRowNumber="0" CharacterSet="" Collate="" Description="1. Stock Register\nMain storage unit. Register for all purchased Parts.\n\00091. Stored Items\n\0009\00091. Parts \2013 group of the same (but manufactured by different manufacturers) items.\n\0009\00092. available materials which are considered for use in manufacturing or trade\n\00092. Features\n\0009\00091. Information\n\0009\00092. Provides usage characteristic.\n\0009\00093. Provides part value in purchase unit\n\0009\00094. Provides coding." Annotation="" BeginScript="" EndScript="" Generate="1" PartitioningType="0" PartitioningIsLinear="1" PartitionsNum="2" PartitioningExpression="" SubPartitioningType="0" SubPartitioningIsLinear="0" SubPartitionsNum="2" SubPartitioningExpression="" >
+<COLUMNS>
+<COLUMN ID="1181" Name="Part Id" DomainID="1105" Pos="1" Datatype="3" Type="INT" Width="5" Prec="0" NotNull="1" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="1" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1205" Name="Part" DomainID="1043" Pos="2" Datatype="14" Type="VARCHAR" Width="24" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="1" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1206" Name="Attribute" DomainID="1043" Pos="3" Datatype="14" Type="VARCHAR" Width="24" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1207" Name="Colour" DomainID="1043" Pos="4" Datatype="14" Type="VARCHAR" Width="24" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1208" Name="Barcode" DomainID="1043" Pos="5" Datatype="14" Type="VARCHAR" Width="24" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1209" Name="Description" DomainID="1049" Pos="6" Datatype="20" Type="TEXT" Width="0" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1210" Name="Classification" DomainID="1043" Pos="7" Datatype="14" Type="VARCHAR" Width="24" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="1" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1211" Name="Value" DomainID="1248" Pos="8" Datatype="7" Type="DECIMAL" Width="14" Prec="8" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1330" Name="Quantity" DomainID="1247" Pos="9" Datatype="7" Type="DECIMAL" Width="12" Prec="4" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1257" Name="Unit" DomainID="1284" Pos="10" Datatype="14" Type="VARCHAR" Width="6" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1332" Name="Favorite" DomainID="-1" Pos="11" Datatype="23" Type="ENUM" Width="0" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="\ayes\a,\ano\a" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1333" Name="Part Code" DomainID="1043" Pos="12" Datatype="14" Type="VARCHAR" Width="24" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+</COLUMNS>
+<REFERENCES_END>
+<REFERENCE_END ID="1336" />
+<REFERENCE_END ID="1781" />
+</REFERENCES_END>
+<INDEXES>
+<INDEX ID="1183" Name="PRIMARY" Primary="1" Unique="0" FullText="0" Reference_ID="-1">
+<INDEXCOLUMNS>
+<INDEXCOLUMN ColumnID="1181=" />
+</INDEXCOLUMNS>
+</INDEX>
+<INDEX ID="1334" Name="PartName" Primary="0" Unique="1" FullText="0" Reference_ID="-1">
+<INDEXCOLUMNS>
+<INDEXCOLUMN ColumnID="1205=" />
+<INDEXCOLUMN ColumnID="1206=" />
+<INDEXCOLUMN ColumnID="1207=" />
+</INDEXCOLUMNS>
+</INDEX>
+</INDEXES>
+</ENTITY>
+<ENTITY ID="1337" Name="Suppliers Stock" Comments="" LineColor="8388608" FillColor="16775408" FontColor="0" GroupID="1890" XPos="2300" YPos="1250" Type="4" RowFormat="0" Temporary="0" RowChecksum="0" PackKeys="0" DelayKeyTblUpdates="0" MinRowNumber="0" MaxRowNumber="0" CharacterSet="" Collate="" Description="9. Suppliers Stock\n\00091. Stored items\n\0009\00091. Items provided by selected suppliers\n\00092. Features\n\0009\00091. Current price of materials\n\0009\00092. Basis for cost calculation" Annotation="" BeginScript="" EndScript="" Generate="1" PartitioningType="0" PartitioningIsLinear="1" PartitionsNum="2" PartitioningExpression="" SubPartitioningType="0" SubPartitioningIsLinear="0" SubPartitionsNum="2" SubPartitioningExpression="" >
+<COLUMNS>
+<COLUMN ID="1338" Name="Supplier" DomainID="1604" Pos="1" Datatype="14" Type="VARCHAR" Width="24" Prec="0" NotNull="1" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1339" Name="Supplier Code" DomainID="-1" Pos="2" Datatype="14" Type="VARCHAR" Width="50" Prec="0" NotNull="1" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1340" Name="Description" DomainID="1049" Pos="3" Datatype="20" Type="TEXT" Width="0" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1341" Name="Category" DomainID="1043" Pos="4" Datatype="14" Type="VARCHAR" Width="24" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1344" Name="Price" DomainID="1247" Pos="5" Datatype="7" Type="DECIMAL" Width="12" Prec="4" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1345" Name="Package" DomainID="1247" Pos="6" Datatype="7" Type="DECIMAL" Width="12" Prec="4" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1883" Name="Package Unit" DomainID="1284" Pos="7" Datatype="14" Type="VARCHAR" Width="6" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1346" Name="Unit Price" DomainID="1248" Pos="8" Datatype="7" Type="DECIMAL" Width="14" Prec="8" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1347" Name="Unit" DomainID="1284" Pos="9" Datatype="14" Type="VARCHAR" Width="6" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1349" Name="Manufacturer" DomainID="1043" Pos="10" Datatype="14" Type="VARCHAR" Width="24" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="1" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1455" Name="Manufacturer Code" DomainID="1043" Pos="11" Datatype="14" Type="VARCHAR" Width="24" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="1" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1456" Name="Part Code" DomainID="1043" Pos="12" Datatype="14" Type="VARCHAR" Width="24" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1472" Name="Part" DomainID="1043" Pos="13" Datatype="14" Type="VARCHAR" Width="24" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="1" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+</COLUMNS>
+<REFERENCES_END>
+<REFERENCE_END ID="1474" />
+<REFERENCE_END ID="1763" />
+</REFERENCES_END>
+<INDEXES>
+<INDEX ID="1457" Name="SupplierCode" Primary="0" Unique="1" FullText="0" Reference_ID="-1">
+<INDEXCOLUMNS>
+<INDEXCOLUMN ColumnID="1338=" />
+<INDEXCOLUMN ColumnID="1339=" />
+</INDEXCOLUMNS>
+</INDEX>
+</INDEXES>
+</ENTITY>
+<ENTITY ID="1475" Name="Manufacturers Stock" Comments="" LineColor="8388608" FillColor="16775408" FontColor="0" GroupID="1890" XPos="2080" YPos="1250" Type="4" RowFormat="0" Temporary="0" RowChecksum="0" PackKeys="0" DelayKeyTblUpdates="0" MinRowNumber="0" MaxRowNumber="0" CharacterSet="" Collate="" Description="10. Manufacturers Stock\n\00091. Stored items\n\0009\00091. Items manufactured by selected manufacturers\n\00092. Features\n\0009\00091. Characteristic of raw materials\n\0009\00092. MSDNs reference" Annotation="" BeginScript="" EndScript="" Generate="1" PartitioningType="0" PartitioningIsLinear="1" PartitionsNum="2" PartitioningExpression="" SubPartitioningType="0" SubPartitioningIsLinear="0" SubPartitionsNum="2" SubPartitioningExpression="" >
+<COLUMNS>
+<COLUMN ID="1476" Name="Manufacturer" DomainID="1604" Pos="1" Datatype="14" Type="VARCHAR" Width="24" Prec="0" NotNull="1" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1477" Name="Product" DomainID="1043" Pos="2" Datatype="14" Type="VARCHAR" Width="24" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1478" Name="Manufacturer Code" DomainID="1604" Pos="3" Datatype="14" Type="VARCHAR" Width="24" Prec="0" NotNull="1" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1479" Name="Description" DomainID="1049" Pos="4" Datatype="20" Type="TEXT" Width="0" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1480" Name="Colour" DomainID="1043" Pos="5" Datatype="14" Type="VARCHAR" Width="24" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1481" Name="Family" DomainID="1043" Pos="6" Datatype="14" Type="VARCHAR" Width="24" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1482" Name="Class" DomainID="1043" Pos="7" Datatype="14" Type="VARCHAR" Width="24" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1483" Name="Effect" DomainID="1043" Pos="8" Datatype="14" Type="VARCHAR" Width="24" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1484" Name="File" DomainID="1043" Pos="9" Datatype="14" Type="VARCHAR" Width="24" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1485" Name="Price Class" DomainID="1284" Pos="10" Datatype="14" Type="VARCHAR" Width="6" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1486" Name="Classification" DomainID="1043" Pos="11" Datatype="14" Type="VARCHAR" Width="24" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="1" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1487" Name="Part Code" DomainID="1043" Pos="12" Datatype="14" Type="VARCHAR" Width="24" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1488" Name="Part" DomainID="1043" Pos="13" Datatype="14" Type="VARCHAR" Width="24" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="1" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+</COLUMNS>
+<REFERENCES_BEGIN>
+<REFERENCE_BEGIN ID="1763" />
+</REFERENCES_BEGIN>
+<REFERENCES_END>
+<REFERENCE_END ID="1490" />
+<REFERENCE_END ID="1784" />
+</REFERENCES_END>
+<INDEXES>
+<INDEX ID="1576" Name="ManufacturerCode" Primary="0" Unique="1" FullText="0" Reference_ID="-1">
+<INDEXCOLUMNS>
+<INDEXCOLUMN ColumnID="1476=" />
+<INDEXCOLUMN ColumnID="1478=" />
+</INDEXCOLUMNS>
+</INDEX>
+</INDEXES>
+</ENTITY>
+<ENTITY ID="1764" Name="Classification" Comments="" LineColor="8388608" FillColor="16775408" FontColor="0" GroupID="1890" XPos="1910" YPos="1570" Type="4" RowFormat="0" Temporary="0" RowChecksum="0" PackKeys="0" DelayKeyTblUpdates="0" MinRowNumber="0" MaxRowNumber="0" CharacterSet="" Collate="" Description="Mnufacturing Classification of goods. Mainly for component picture management (Glass Eye)." Annotation="" BeginScript="" EndScript="" Generate="1" PartitioningType="0" PartitioningIsLinear="1" PartitionsNum="2" PartitioningExpression="" SubPartitioningType="0" SubPartitioningIsLinear="0" SubPartitionsNum="2" SubPartitioningExpression="" >
+<COLUMNS>
+<COLUMN ID="1768" Name="Part" DomainID="1604" Pos="1" Datatype="14" Type="VARCHAR" Width="24" Prec="0" NotNull="1" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="1" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1769" Name="Classification" DomainID="1604" Pos="2" Datatype="14" Type="VARCHAR" Width="24" Prec="0" NotNull="1" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+</COLUMNS>
+<REFERENCES_BEGIN>
+<REFERENCE_BEGIN ID="1781" />
+<REFERENCE_BEGIN ID="1784" />
+</REFERENCES_BEGIN>
+<REFERENCES_END>
+<REFERENCE_END ID="1771" />
+</REFERENCES_END>
+<INDEXES>
+<INDEX ID="1770" Name="CalssificationFull" Primary="0" Unique="1" FullText="0" Reference_ID="-1">
+<INDEXCOLUMNS>
+<INDEXCOLUMN ColumnID="1769=" />
+<INDEXCOLUMN ColumnID="1768=" />
+</INDEXCOLUMNS>
+</INDEX>
+</INDEXES>
+</ENTITY>
+<ENTITY ID="1902" Name="Accounts" Comments="" LineColor="8388608" FillColor="13959039" FontColor="0" GroupID="1891" XPos="1830" YPos="460" Type="4" RowFormat="0" Temporary="0" RowChecksum="0" PackKeys="0" DelayKeyTblUpdates="0" MinRowNumber="0" MaxRowNumber="0" CharacterSet="" Collate="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" PartitioningType="0" PartitioningIsLinear="1" PartitionsNum="2" PartitioningExpression="" SubPartitioningType="0" SubPartitioningIsLinear="0" SubPartitionsNum="2" SubPartitioningExpression="" >
+<COLUMNS>
+<COLUMN ID="1908" Name="Accounts" DomainID="1042" Pos="1" Datatype="14" Type="VARCHAR" Width="24" Prec="0" NotNull="1" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="1" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1909" Name="Category" DomainID="-1" Pos="2" Datatype="23" Type="ENUM" Width="0" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="\aOpen\a,\aFinancial\a" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1910" Name="Class" DomainID="-1" Pos="3" Datatype="23" Type="ENUM" Width="0" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="\aExternal\a,\aInternal\a" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1911" Name="Description" DomainID="1049" Pos="4" Datatype="20" Type="TEXT" Width="0" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+</COLUMNS>
+<REFERENCES_BEGIN>
+<REFERENCE_BEGIN ID="2084" />
+<REFERENCE_BEGIN ID="2087" />
+</REFERENCES_BEGIN>
+<INDEXES>
+<INDEX ID="1907" Name="PRIMARY" Primary="1" Unique="0" FullText="0" Reference_ID="-1">
+<INDEXCOLUMNS>
+<INDEXCOLUMN ColumnID="1908=" />
+</INDEXCOLUMNS>
+</INDEX>
+</INDEXES>
+</ENTITY>
+<ENTITY ID="1903" Name="Transactions" Comments="" LineColor="8388608" FillColor="13959039" FontColor="0" GroupID="1891" XPos="1430" YPos="460" Type="4" RowFormat="0" Temporary="0" RowChecksum="0" PackKeys="0" DelayKeyTblUpdates="0" MinRowNumber="0" MaxRowNumber="0" CharacterSet="" Collate="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" PartitioningType="0" PartitioningIsLinear="1" PartitionsNum="2" PartitioningExpression="" SubPartitioningType="0" SubPartitioningIsLinear="0" SubPartitionsNum="2" SubPartitioningExpression="" >
+<COLUMNS>
+<COLUMN ID="1916" Name="Transaction" DomainID="1042" Pos="1" Datatype="14" Type="VARCHAR" Width="24" Prec="0" NotNull="1" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="1" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1917" Name="Cash Flow" DomainID="-1" Pos="2" Datatype="23" Type="ENUM" Width="0" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="\aOut\a,\aIn\a,\aNone\a" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1918" Name="Description" DomainID="1049" Pos="3" Datatype="20" Type="TEXT" Width="0" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="2091" Name="Cash Sign" DomainID="-1" Pos="4" Datatype="23" Type="ENUM" Width="0" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="\a-\a,\a+\a,\a=\a" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+</COLUMNS>
+<REFERENCES_BEGIN>
+<REFERENCE_BEGIN ID="2083" />
+</REFERENCES_BEGIN>
+<INDEXES>
+<INDEX ID="1915" Name="PRIMARY" Primary="1" Unique="0" FullText="0" Reference_ID="-1">
+<INDEXCOLUMNS>
+<INDEXCOLUMN ColumnID="1916=" />
+</INDEXCOLUMNS>
+</INDEX>
+</INDEXES>
+</ENTITY>
+<ENTITY ID="1904" Name="Currencies" Comments="" LineColor="8388608" FillColor="13959039" FontColor="0" GroupID="1891" XPos="1660" YPos="800" Type="4" RowFormat="0" Temporary="0" RowChecksum="0" PackKeys="0" DelayKeyTblUpdates="0" MinRowNumber="0" MaxRowNumber="0" CharacterSet="" Collate="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" PartitioningType="0" PartitioningIsLinear="1" PartitionsNum="2" PartitioningExpression="" SubPartitioningType="0" SubPartitioningIsLinear="0" SubPartitionsNum="2" SubPartitioningExpression="" >
+<COLUMNS>
+<COLUMN ID="1920" Name="Currency" DomainID="1951" Pos="1" Datatype="13" Type="CHAR" Width="3" Prec="0" NotNull="1" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="1" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1957" Name="Description" DomainID="1049" Pos="2" Datatype="20" Type="TEXT" Width="0" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+</COLUMNS>
+<INDEXES>
+<INDEX ID="1955" Name="PRIMARY" Primary="1" Unique="0" FullText="0" Reference_ID="-1">
+<INDEXCOLUMNS>
+<INDEXCOLUMN ColumnID="1920=" />
+</INDEXCOLUMNS>
+</INDEX>
+</INDEXES>
+</ENTITY>
+<ENTITY ID="1971" Name="Cash Book" Comments="" LineColor="8388608" FillColor="13959039" FontColor="0" GroupID="1891" XPos="1600" YPos="620" Type="4" RowFormat="0" Temporary="0" RowChecksum="0" PackKeys="0" DelayKeyTblUpdates="0" MinRowNumber="0" MaxRowNumber="0" CharacterSet="" Collate="" Description="" Annotation="" BeginScript="" EndScript="" Generate="1" PartitioningType="0" PartitioningIsLinear="1" PartitionsNum="2" PartitioningExpression="" SubPartitioningType="0" SubPartitioningIsLinear="0" SubPartitionsNum="2" SubPartitioningExpression="" >
+<COLUMNS>
+<COLUMN ID="1975" Name="Transaction Id" DomainID="1105" Pos="1" Datatype="3" Type="INT" Width="5" Prec="0" NotNull="1" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="1" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="1976" Name="Date" DomainID="2011" Pos="2" Datatype="8" Type="DATE" Width="0" Prec="0" NotNull="1" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="2014" Name="Amount" DomainID="2051" Pos="3" Datatype="7" Type="DECIMAL" Width="11" Prec="2" NotNull="1" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="0" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="2064" Name="Transaction" DomainID="1043" Pos="4" Datatype="14" Type="VARCHAR" Width="24" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="1" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="2065" Name="Source" DomainID="1043" Pos="5" Datatype="14" Type="VARCHAR" Width="24" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="1" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+<COLUMN ID="2066" Name="Target" DomainID="1043" Pos="6" Datatype="14" Type="VARCHAR" Width="24" Prec="0" NotNull="0" Unsigned="0" ZeroFill="0" Binary="0" AutoInc="0" PrimaryKey="0" IsFKey="1" Values="" DefaultValue="" Comments="" TimestampOnUpdate="0" CharacterSet="" Collate="" >
+</COLUMN>
+</COLUMNS>
+<REFERENCES_END>
+<REFERENCE_END ID="2083" />
+<REFERENCE_END ID="2084" />
+<REFERENCE_END ID="2087" />
+</REFERENCES_END>
+<INDEXES>
+<INDEX ID="1974" Name="PRIMARY" Primary="1" Unique="0" FullText="0" Reference_ID="-1">
+<INDEXCOLUMNS>
+<INDEXCOLUMN ColumnID="1975=" />
+</INDEXCOLUMNS>
+</INDEX>
+</INDEXES>
+</ENTITY>
+</ENTITIES>
+<REFERENCES>
+<REFERENCE  ID="1081" Name="PartClass-In-CostCodes" Comments="" SOURCE="1042" DESTINATION="1057" FKIDS="1053=1060\n" RefColor="0" RefLabelColor="13959039" RefLabelFontColor="0" OnDelete="0" OnUpdate="1" Description="" Annotation="" Generate="1" FKIndex_ID="-1" ParentKeyIndexID="1056" AutoColumnIDs="" LabelPointNumber="2" LabelPosition="0.5" ManualStartTailPosition="0" ManualEndTailPosition="0" ><USERPOINTS></USERPOINTS>
+</REFERENCE>
+<REFERENCE  ID="1087" Name="PartClass_In_PartAssignment" Comments="" SOURCE="1042" DESTINATION="1082" FKIDS="1053=1084\n" RefColor="8388608" RefLabelColor="16775408" RefLabelFontColor="0" OnDelete="0" OnUpdate="1" Description="" Annotation="" Generate="1" FKIndex_ID="-1" ParentKeyIndexID="1056" AutoColumnIDs="" LabelPointNumber="2" LabelPosition="0.5" ManualStartTailPosition="0" ManualEndTailPosition="0" ><USERPOINTS></USERPOINTS>
+</REFERENCE>
+<REFERENCE  ID="1150" Name="StockTitle_In_StorageAssignment" Comments="" SOURCE="1091" DESTINATION="1135" FKIDS="1126=1179\n" RefColor="8388608" RefLabelColor="16775408" RefLabelFontColor="0" OnDelete="0" OnUpdate="1" Description="" Annotation="" Generate="1" FKIndex_ID="-1" ParentKeyIndexID="1148" AutoColumnIDs="1179\n" LabelPointNumber="2" LabelPosition="0.5" ManualStartTailPosition="0" ManualEndTailPosition="0" ><USERPOINTS></USERPOINTS>
+</REFERENCE>
+<REFERENCE  ID="1156" Name="PartClass_In_StorageAssignment" Comments="" SOURCE="1042" DESTINATION="1135" FKIDS="1053=1175\n" RefColor="8388608" RefLabelColor="16775408" RefLabelFontColor="0" OnDelete="0" OnUpdate="1" Description="" Annotation="" Generate="1" FKIndex_ID="-1" ParentKeyIndexID="1056" AutoColumnIDs="1175\n" LabelPointNumber="2" LabelPosition="0.5" ManualStartTailPosition="0" ManualEndTailPosition="1" EndTailShapeSideScale="0.53030303030303" EndOrientation="2" ><USERPOINTS></USERPOINTS>
+</REFERENCE>
+<REFERENCE  ID="1165" Name="CostCode_In_StorageAssignment" Comments="" SOURCE="1057" DESTINATION="1135" FKIDS="1058=1177\n" RefColor="8388608" RefLabelColor="16775408" RefLabelFontColor="0" OnDelete="0" OnUpdate="1" Description="" Annotation="" Generate="1" FKIndex_ID="-1" ParentKeyIndexID="1065" AutoColumnIDs="1177\n" LabelPointNumber="2" LabelPosition="0.5" ManualStartTailPosition="0" ManualEndTailPosition="0" ><USERPOINTS></USERPOINTS>
+</REFERENCE>
+<REFERENCE  ID="1336" Name="Part_In_StockRegister" Comments="" SOURCE="1082" DESTINATION="1180" FKIDS="1083=1205\n" RefColor="8388608" RefLabelColor="16775408" RefLabelFontColor="0" OnDelete="0" OnUpdate="1" Description="" Annotation="" Generate="1" FKIndex_ID="-1" ParentKeyIndexID="1086" AutoColumnIDs="" LabelPointNumber="2" LabelPosition="0.5" ManualStartTailPosition="0" ManualEndTailPosition="0" ><USERPOINTS></USERPOINTS>
+</REFERENCE>
+<REFERENCE  ID="1474" Name="Part_In_SuppliersStock" Comments="" SOURCE="1082" DESTINATION="1337" FKIDS="1083=1472\n" RefColor="8388608" RefLabelColor="16775408" RefLabelFontColor="0" OnDelete="0" OnUpdate="1" Description="" Annotation="" Generate="1" FKIndex_ID="-1" ParentKeyIndexID="1086" AutoColumnIDs="" LabelPointNumber="2" LabelPosition="0.4500635928593" ManualStartTailPosition="0" ManualEndTailPosition="1" EndTailShapeSideScale="0.509677419354839" EndOrientation="3" ><USERPOINTS></USERPOINTS>
+</REFERENCE>
+<REFERENCE  ID="1490" Name="Part_In_ManufacturersStock" Comments="" SOURCE="1082" DESTINATION="1475" FKIDS="1083=1488\n" RefColor="8388608" RefLabelColor="16775408" RefLabelFontColor="0" OnDelete="0" OnUpdate="1" Description="" Annotation="" Generate="1" FKIndex_ID="-1" ParentKeyIndexID="1086" AutoColumnIDs="" LabelPointNumber="2" LabelPosition="0.5" ManualStartTailPosition="1" ManualEndTailPosition="1" StartTailShapeSideScale="0.738853503184713" StartOrientation="4" EndTailShapeSideScale="0.572139303482587" EndOrientation="3" ><USERPOINTS></USERPOINTS>
+</REFERENCE>
+<REFERENCE  ID="1763" Name="ManufacturerCode_In_SuppliersStock" Comments="" SOURCE="1475" DESTINATION="1337" FKIDS="1476=1349\n1478=1455\n" RefColor="8388608" RefLabelColor="16775408" RefLabelFontColor="0" OnDelete="0" OnUpdate="1" Description="" Annotation="" Generate="1" FKIndex_ID="-1" ParentKeyIndexID="1576" AutoColumnIDs="" LabelPointNumber="2" LabelPosition="0.5" ManualStartTailPosition="1" ManualEndTailPosition="1" StartTailShapeSideScale="0.54726368159204" StartOrientation="4" EndTailShapeSideScale="0.599033816425121" EndOrientation="4" ><USERPOINTS></USERPOINTS>
+</REFERENCE>
+<REFERENCE  ID="1771" Name="Part_In_Classification" Comments="" SOURCE="1082" DESTINATION="1764" FKIDS="1083=1768\n" RefColor="8388608" RefLabelColor="16775408" RefLabelFontColor="0" OnDelete="0" OnUpdate="1" Description="" Annotation="" Generate="1" FKIndex_ID="-1" ParentKeyIndexID="1086" AutoColumnIDs="" LabelPointNumber="2" LabelPosition="0.5" ManualStartTailPosition="0" ManualEndTailPosition="1" EndTailShapeSideScale="0.4765625" EndOrientation="3" ><USERPOINTS></USERPOINTS>
+</REFERENCE>
+<REFERENCE  ID="1781" Name="Classification_In_StockRegister" Comments="" SOURCE="1764" DESTINATION="1180" FKIDS="1769=1210\n1768=1205\n" RefColor="8388608" RefLabelColor="16775408" RefLabelFontColor="0" OnDelete="0" OnUpdate="1" Description="" Annotation="" Generate="1" FKIndex_ID="-1" ParentKeyIndexID="1770" AutoColumnIDs="" LabelPointNumber="2" LabelPosition="0.621761658031088" ManualStartTailPosition="0" ManualEndTailPosition="0" ><USERPOINTS></USERPOINTS>
+</REFERENCE>
+<REFERENCE  ID="1784" Name="Classification_In_ManufacturersStock" Comments="" SOURCE="1764" DESTINATION="1475" FKIDS="1769=1486\n1768=1488\n" RefColor="8388608" RefLabelColor="16775408" RefLabelFontColor="0" OnDelete="0" OnUpdate="1" Description="" Annotation="" Generate="1" FKIndex_ID="-1" ParentKeyIndexID="1770" AutoColumnIDs="" LabelPointNumber="2" LabelPosition="0.721418826739427" ManualStartTailPosition="1" ManualEndTailPosition="1" StartTailShapeSideScale="0.5" StartOrientation="2" EndTailShapeSideScale="0.109452736318408" EndOrientation="4" ><USERPOINTS></USERPOINTS>
+</REFERENCE>
+<REFERENCE  ID="2083" Name="Transaction_In_CashBook" Comments="" SOURCE="1903" DESTINATION="1971" FKIDS="1916=2064\n" RefColor="8388608" RefLabelColor="16777215" RefLabelFontColor="0" OnDelete="0" OnUpdate="1" Description="" Annotation="" Generate="1" FKIndex_ID="-1" ParentKeyIndexID="1915" AutoColumnIDs="" LabelPointNumber="2" LabelPosition="0.5" ManualStartTailPosition="1" ManualEndTailPosition="0" StartTailShapeSideScale="0.368983957219251" StartOrientation="4" ><USERPOINTS></USERPOINTS>
+</REFERENCE>
+<REFERENCE  ID="2084" Name="SourceAccount_In_CashBook" Comments="" SOURCE="1902" DESTINATION="1971" FKIDS="1908=2065\n" RefColor="8388608" RefLabelColor="16777215" RefLabelFontColor="0" OnDelete="0" OnUpdate="1" Description="" Annotation="" Generate="1" FKIndex_ID="-1" ParentKeyIndexID="1907" AutoColumnIDs="" LabelPointNumber="2" LabelPosition="0.469887287612853" ManualStartTailPosition="1" ManualEndTailPosition="1" StartTailShapeSideScale="0.752525252525252" StartOrientation="4" EndTailShapeSideScale="0.147540983606557" EndOrientation="2" ><USERPOINTS></USERPOINTS>
+</REFERENCE>
+<REFERENCE  ID="2087" Name="TargetAccount_In_CashBook" Comments="" SOURCE="1902" DESTINATION="1971" FKIDS="1908=2066\n" RefColor="8388608" RefLabelColor="16777215" RefLabelFontColor="0" OnDelete="0" OnUpdate="1" Description="" Annotation="" Generate="1" FKIndex_ID="-1" ParentKeyIndexID="1907" AutoColumnIDs="" LabelPointNumber="2" LabelPosition="0.740525328330206" ManualStartTailPosition="0" ManualEndTailPosition="1" EndTailShapeSideScale="0.659459459459459" EndOrientation="3" ><USERPOINTS></USERPOINTS>
+</REFERENCE>
+</REFERENCES>
+<NOTES>
+<NOTE  ID="1041" Name="Note_01" Comments="" LineColor="8388608" FillColor="13499135" FontColor="0" XPos="330" YPos="20" Text="1. Stock  Register\n2. Manufacturing Stock\n   1. Component Id / Part Id\n   2. Specific Attribute\n   3. Material Cost (MC)\n   4. Unit\n   5. Assembly Cost (WP)\n   6. Sub-components Assembly Cost (CWP)\n   7. Quantity Available\n4. Product Stock\n5. Glass Shop Stock\n6. Engineering Stock\n   1. Equipment Id / Part Id\n   2. Specific Attribute\n   3. Usage\n   4. Status\n   5. Status Changing Date\n   6. Quantity Available\n   7. Cost\n   8. Value\n7. Design Assurance Stock\n8. Suppliers Stock\n   1. Supplier\n   Supplier from specification List of Qualified Supplier (LoQS)\n   2. Supplier code\n   3. Package quantity\n   4. Package Price\n   5. Unit Price\n   6. Description\n   7. Manufacturer\n   8. MFS Id\n   foreign reference to Manufacturers Stock \2192 MFS Id\n   9. Item Id\n   foreign reference to Commodity Stock \2192 Item id\n9. Manufacturers Stock\n   1. Manufacturer\n   Manufacturer from specification List of Qualified Manufacturers (LoQM)\n   2. Product\n   3. Manufacturer code\n   4. Description\n   5. Colour\n   6. Family\n   7. Class\n   8. Effect\n   9. File\n   10. Price Class\n   11. MFS Id\n   Unique index and predefined code used as Item id in Commodity Stock.\n   12. Item Id\n   foreign reference to Commodity Stock \2192 Item id.\n" />
+</NOTES>
+<STOREDPROCES>
+</STOREDPROCES>
+<VIEWS>
+</VIEWS>
+<EVENTS>
+</EVENTS>
+</METADATA>
+</DBMODEL>

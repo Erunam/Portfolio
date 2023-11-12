@@ -1,0 +1,14 @@
+obj\Release\MedtronicTaskList.exe
+obj\Release\MedtronicTaskList.pdb
+bin\Release\MedtronicTaskList.exe
+bin\Release\MedtronicTaskList.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\MedtronicTaskList.AboutBox1.resources
+obj\Release\MedtronicTaskList.Properties.Resources.resources
+obj\Release\MedtronicTaskList.TaskList.resources
+obj\Release\MedtronicTaskList.csproj.GenerateResource.Cache
+bin\Release\MedtronicTaskList.exe.manifest
+bin\Release\MedtronicTaskList.application
+obj\Release\MedtronicTaskList.TrustInfo.xml
+obj\Release\MedtronicTaskList.exe.manifest
+obj\Release\MedtronicTaskList.application

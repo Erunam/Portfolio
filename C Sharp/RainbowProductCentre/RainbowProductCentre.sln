@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RainbowProductCentre", "RainbowProductCentre\RainbowProductCentre.csproj", "{7919DA67-D3DF-486A-B596-DB15ADF91173}"
+	ProjectSection(ProjectDependencies) = postProject
+		{6CD97445-B514-4E5A-BD8D-3848A1052F0D} = {6CD97445-B514-4E5A-BD8D-3848A1052F0D}
+		{3EDC087B-757A-40DA-BA1E-387C2C082375} = {3EDC087B-757A-40DA-BA1E-387C2C082375}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RainbowDB", "RSG Libraries\RainbowDB\RainbowDB.csproj", "{3EDC087B-757A-40DA-BA1E-387C2C082375}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSGDesign", "RSG Libraries\RSGDesign\RSGDesign.csproj", "{6CD97445-B514-4E5A-BD8D-3848A1052F0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSGComponent", "RSG Libraries\RSGComponent\RSGComponent.csproj", "{65CCA9A4-10A2-4FC5-BF7F-05A094F94DB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSGFileIO", "RSG Libraries\RSGFileIO\RSGFileIO.csproj", "{25E78C74-7D84-4E96-B0CA-9EE7525D73E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSGRules", "RSG Libraries\RSGRules\RSGRules.csproj", "{8785D1AA-4DF7-4A04-83A9-AF1DA4DF3F58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7919DA67-D3DF-486A-B596-DB15ADF91173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7919DA67-D3DF-486A-B596-DB15ADF91173}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7919DA67-D3DF-486A-B596-DB15ADF91173}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7919DA67-D3DF-486A-B596-DB15ADF91173}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EDC087B-757A-40DA-BA1E-387C2C082375}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EDC087B-757A-40DA-BA1E-387C2C082375}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EDC087B-757A-40DA-BA1E-387C2C082375}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EDC087B-757A-40DA-BA1E-387C2C082375}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CD97445-B514-4E5A-BD8D-3848A1052F0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CD97445-B514-4E5A-BD8D-3848A1052F0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CD97445-B514-4E5A-BD8D-3848A1052F0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CD97445-B514-4E5A-BD8D-3848A1052F0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65CCA9A4-10A2-4FC5-BF7F-05A094F94DB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65CCA9A4-10A2-4FC5-BF7F-05A094F94DB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65CCA9A4-10A2-4FC5-BF7F-05A094F94DB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65CCA9A4-10A2-4FC5-BF7F-05A094F94DB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25E78C74-7D84-4E96-B0CA-9EE7525D73E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25E78C74-7D84-4E96-B0CA-9EE7525D73E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25E78C74-7D84-4E96-B0CA-9EE7525D73E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25E78C74-7D84-4E96-B0CA-9EE7525D73E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8785D1AA-4DF7-4A04-83A9-AF1DA4DF3F58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8785D1AA-4DF7-4A04-83A9-AF1DA4DF3F58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8785D1AA-4DF7-4A04-83A9-AF1DA4DF3F58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8785D1AA-4DF7-4A04-83A9-AF1DA4DF3F58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

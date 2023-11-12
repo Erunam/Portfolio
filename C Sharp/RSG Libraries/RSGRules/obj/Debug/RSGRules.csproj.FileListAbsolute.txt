@@ -1,0 +1,10 @@
+R:\Engineering\RSG Applications\RSG Libraries\RSGRules\obj\Debug\ResolveAssemblyReference.cache
+R:\Engineering\RSG Applications\RSG Libraries\RSGRules\bin\Debug\RSGRules.dll
+R:\Engineering\RSG Applications\RSG Libraries\RSGRules\bin\Debug\RSGRules.pdb
+R:\Engineering\RSG Applications\RSG Libraries\RSGRules\obj\Debug\RSGRules.dll
+R:\Engineering\RSG Applications\RSG Libraries\RSGRules\obj\Debug\RSGRules.pdb
+R:\Engineering\Programming Studio\Development\RSG Libraries\RSGRules\bin\Debug\RSGRules.dll
+R:\Engineering\Programming Studio\Development\RSG Libraries\RSGRules\bin\Debug\RSGRules.pdb
+R:\Engineering\Programming Studio\Development\RSG Libraries\RSGRules\obj\Debug\ResolveAssemblyReference.cache
+R:\Engineering\Programming Studio\Development\RSG Libraries\RSGRules\obj\Debug\RSGRules.dll
+R:\Engineering\Programming Studio\Development\RSG Libraries\RSGRules\obj\Debug\RSGRules.pdb

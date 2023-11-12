@@ -1,0 +1,57 @@
+function export = exportname(workname,bifname,bifvalue,range)
+% ordering results, preparing the path and name for result files into struct
+global pathes
+
+cd(pathes.results);
+
+    k=exist(bifname);
+    if (k~=7)
+        eval(['mkdir ' bifname]);
+    end
+    cd(bifname);
+    k=exist(workname);
+    if (k~=7)
+        eval(['mkdir ' workname]);
+    end
+    cd(workname);
+    export.path = cd;
+
+    yy = bifname;
+    uu = num2str(bifvalue);
+    uu = strrep(uu,'  ','-');
+    uu = strrep(uu,'---','-');
+    uu = strrep(uu,'--','-');
+    uu = strrep(uu,'--','-');
+    
+switch workname
+    case 'simulation'
+        xx = num2str(range);
+        xx = strrep(xx,'  ','-');
+        xx = strcat(['Sm' xx]);
+        nn = ['A1';'T1';'A2';'T2';'Ap';'Tp'];
+        
+        for i=1:6
+            name(i,:) = strcat(xx,'_',nn(i,:),'_',yy,'_',uu);
+        end    
+    case 'poincare'
+        xx = 'Pp';
+        nn = ['T1xA1';'T2xA2';'TpxAp'];
+
+        for i=1:3
+            name(i,:) = strcat(xx,'_',nn(i,:),'_',yy,'_',uu);
+        end
+    case 'feigenbaum'
+        xx = 'Fg';
+        nn = ['A1';'T1';'A2';'T2';'Ap';'Tp'];
+
+        for i=1:6
+            name(i,:) = strcat(xx,'_',nn(i,:),'_',yy,'_',uu);
+        end
+    otherwise
+        return;
+end
+
+export.data = strcat(xx,'_',yy,'_',uu,'.mat');
+export.name = name;
+
+cd(pathes.runtime);

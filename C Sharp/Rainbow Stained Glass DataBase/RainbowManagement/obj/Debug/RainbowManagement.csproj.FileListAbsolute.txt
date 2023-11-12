@@ -1,0 +1,36 @@
+C:\Documents and Settings\Ryba\Ustawienia lokalne\Dane aplikacji\Temporary Projects\RainbowManagement\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Ryba\Ustawienia lokalne\Dane aplikacji\Temporary Projects\RainbowManagement\obj\Debug\RainbowManagement.Properties.Resources.resources
+C:\Documents and Settings\Ryba\Ustawienia lokalne\Dane aplikacji\Temporary Projects\RainbowManagement\obj\Debug\RainbowManagement.RainbowParentMDI.resources
+C:\Documents and Settings\Ryba\Ustawienia lokalne\Dane aplikacji\Temporary Projects\RainbowManagement\obj\Debug\RainbowManagement.csproj.GenerateResource.Cache
+C:\Documents and Settings\Ryba\Ustawienia lokalne\Dane aplikacji\Temporary Projects\RainbowManagement\bin\Debug\RainbowManagement.exe.config
+C:\Documents and Settings\Ryba\Ustawienia lokalne\Dane aplikacji\Temporary Projects\RainbowManagement\bin\Debug\RainbowManagement.exe
+C:\Documents and Settings\Ryba\Ustawienia lokalne\Dane aplikacji\Temporary Projects\RainbowManagement\bin\Debug\RainbowManagement.pdb
+C:\Documents and Settings\Ryba\Ustawienia lokalne\Dane aplikacji\Temporary Projects\RainbowManagement\obj\Debug\RainbowManagement.exe
+C:\Documents and Settings\Ryba\Ustawienia lokalne\Dane aplikacji\Temporary Projects\RainbowManagement\obj\Debug\RainbowManagement.pdb
+D:\Programming\Visual Studio Projects\RainbowManagement\RainbowManagement\bin\Debug\RainbowManagement.exe.config
+D:\Programming\Visual Studio Projects\RainbowManagement\RainbowManagement\obj\Debug\RainbowManagement.exe
+D:\Programming\Visual Studio Projects\RainbowManagement\RainbowManagement\obj\Debug\RainbowManagement.pdb
+D:\Programming\Visual Studio Projects\RainbowManagement\RainbowManagement\obj\Debug\ResolveAssemblyReference.cache
+D:\Programming\Visual Studio Projects\RainbowManagement\RainbowManagement\obj\Debug\RainbowManagement.Properties.Resources.resources
+D:\Programming\Visual Studio Projects\RainbowManagement\RainbowManagement\obj\Debug\RainbowManagement.RainbowParentMDI.resources
+D:\Programming\Visual Studio Projects\RainbowManagement\RainbowManagement\obj\Debug\RainbowManagement.csproj.GenerateResource.Cache
+D:\Programming\Visual Studio Projects\RainbowManagement\RainbowManagement\bin\Debug\RainbowManagement.exe
+D:\Programming\Visual Studio Projects\RainbowManagement\RainbowManagement\bin\Debug\RainbowManagement.pdb
+D:\Programming\Visual Studio Projects\RainbowManagement\RainbowManagement\obj\Debug\RainbowManagement.SettingsForm.resources
+D:\Programming\Visual Studio Projects\RainbowManagement\RainbowManagement\obj\Debug\RainbowManagement.DesignGrid.resources
+Y:\Engineering\Information Technology\Rainbow Stained Glass DataBase\RainbowManagement\bin\Debug\RainbowManagement.exe.config
+Y:\Engineering\Information Technology\Rainbow Stained Glass DataBase\RainbowManagement\obj\Debug\RainbowManagement.exe
+Y:\Engineering\Information Technology\Rainbow Stained Glass DataBase\RainbowManagement\obj\Debug\RainbowManagement.pdb
+Y:\Engineering\Information Technology\Rainbow Stained Glass DataBase\RainbowManagement\bin\Debug\RainbowManagement.exe
+Y:\Engineering\Information Technology\Rainbow Stained Glass DataBase\RainbowManagement\bin\Debug\RainbowManagement.pdb
+Y:\Engineering\Information Technology\Rainbow Stained Glass DataBase\RainbowManagement\obj\Debug\ResolveAssemblyReference.cache
+Y:\Engineering\Information Technology\Rainbow Stained Glass DataBase\RainbowManagement\obj\Debug\RainbowManagement.SettingsForm.resources
+Y:\Engineering\Information Technology\Rainbow Stained Glass DataBase\RainbowManagement\obj\Debug\RainbowManagement.Properties.Resources.resources
+Y:\Engineering\Information Technology\Rainbow Stained Glass DataBase\RainbowManagement\obj\Debug\RainbowManagement.RainbowParentMDI.resources
+Y:\Engineering\Information Technology\Rainbow Stained Glass DataBase\RainbowManagement\obj\Debug\RainbowManagement.csproj.GenerateResource.Cache
+Y:\Engineering\Information Technology\Rainbow Stained Glass DataBase\RainbowManagement\obj\Debug\RainbowManagement.Components.resources
+Y:\Engineering\Information Technology\Rainbow Stained Glass DataBase\RainbowManagement\obj\Debug\RainbowManagement.Configurations.resources
+Y:\Engineering\Information Technology\Rainbow Stained Glass DataBase\RainbowManagement\obj\Debug\RainbowManagement.Products.resources
+Y:\Engineering\Information Technology\Rainbow Stained Glass DataBase\RainbowManagement\obj\Debug\RainbowManagement.Specifications.resources
+Y:\Engineering\Information Technology\Rainbow Stained Glass DataBase\RainbowManagement\obj\Debug\RainbowManagement.Designs.resources
+Y:\Engineering\Information Technology\Rainbow Stained Glass DataBase\RainbowManagement\obj\Debug\RainbowManagement.Form1.resources

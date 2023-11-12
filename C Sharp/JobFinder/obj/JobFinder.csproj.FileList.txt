@@ -1,0 +1,16 @@
+bin\Debug\JobFinder.exe
+bin\Debug\JobFinder.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\JobFinder.JobFinder.resources
+obj\Debug\JobFinder.csproj.GenerateResource.Cache
+obj\Debug\JobFinder.exe
+obj\Debug\JobFinder.pdb
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\JobFinder.JobFinder.resources
+obj\Release\JobFinder.Properties.Resources.resources
+obj\Release\JobFinder.csproj.GenerateResource.Cache
+bin\Release\JobFinder.exe
+bin\Release\JobFinder.pdb
+bin\Release\ICSharpCode.SharpZipLib.dll
+obj\Release\JobFinder.exe
+obj\Release\JobFinder.pdb

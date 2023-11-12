@@ -1,0 +1,10 @@
+R:\Engineering\RSG Applications\RSG Libraries\RSGFileIO\bin\Debug\RSGFileIO.dll
+R:\Engineering\RSG Applications\RSG Libraries\RSGFileIO\bin\Debug\RSGFileIO.pdb
+R:\Engineering\RSG Applications\RSG Libraries\RSGFileIO\obj\Debug\ResolveAssemblyReference.cache
+R:\Engineering\RSG Applications\RSG Libraries\RSGFileIO\obj\Debug\RSGFileIO.dll
+R:\Engineering\RSG Applications\RSG Libraries\RSGFileIO\obj\Debug\RSGFileIO.pdb
+R:\Engineering\Programming Studio\Development\RSG Libraries\RSGFileIO\bin\Debug\RSGFileIO.dll
+R:\Engineering\Programming Studio\Development\RSG Libraries\RSGFileIO\bin\Debug\RSGFileIO.pdb
+R:\Engineering\Programming Studio\Development\RSG Libraries\RSGFileIO\obj\Debug\ResolveAssemblyReference.cache
+R:\Engineering\Programming Studio\Development\RSG Libraries\RSGFileIO\obj\Debug\RSGFileIO.dll
+R:\Engineering\Programming Studio\Development\RSG Libraries\RSGFileIO\obj\Debug\RSGFileIO.pdb

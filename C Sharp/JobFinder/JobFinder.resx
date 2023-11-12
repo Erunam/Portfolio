@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="PathButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="PathButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>444, 10</value>
+  </data>
+  <data name="PathButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 25</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="PathButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="PathButton.Text" xml:space="preserve">
+    <value>Add Path</value>
+  </data>
+  <data name="&gt;&gt;PathButton.Name" xml:space="preserve">
+    <value>PathButton</value>
+  </data>
+  <data name="&gt;&gt;PathButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PathButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PathButton.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="PathCombo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="PathCombo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 11</value>
+  </data>
+  <data name="PathCombo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>361, 21</value>
+  </data>
+  <data name="PathCombo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;PathCombo.Name" xml:space="preserve">
+    <value>PathCombo</value>
+  </data>
+  <data name="&gt;&gt;PathCombo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PathCombo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PathCombo.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="PathLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="PathLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 15</value>
+  </data>
+  <data name="PathLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>56, 13</value>
+  </data>
+  <data name="PathLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="PathLabel.Text" xml:space="preserve">
+    <value>Base Path</value>
+  </data>
+  <data name="&gt;&gt;PathLabel.Name" xml:space="preserve">
+    <value>PathLabel</value>
+  </data>
+  <data name="&gt;&gt;PathLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PathLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;PathLabel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="JobLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="JobLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="JobLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 46</value>
+  </data>
+  <data name="JobLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 13</value>
+  </data>
+  <data name="JobLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="JobLabel.Text" xml:space="preserve">
+    <value>Job Number</value>
+  </data>
+  <data name="&gt;&gt;JobLabel.Name" xml:space="preserve">
+    <value>JobLabel</value>
+  </data>
+  <data name="&gt;&gt;JobLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;JobLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="JobButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="JobButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="JobButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>444, 41</value>
+  </data>
+  <data name="JobButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 25</value>
+  </data>
+  <data name="JobButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="JobButton.Text" xml:space="preserve">
+    <value>Find ...</value>
+  </data>
+  <data name="&gt;&gt;JobButton.Name" xml:space="preserve">
+    <value>JobButton</value>
+  </data>
+  <data name="&gt;&gt;JobButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;JobButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="JobText.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="JobText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 42</value>
+  </data>
+  <data name="JobText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>307, 20</value>
+  </data>
+  <data name="JobText.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="JobText.Text" xml:space="preserve">
+    <value>Job Number or *</value>
+  </data>
+  <data name="JobText.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;JobText.Name" xml:space="preserve">
+    <value>JobText</value>
+  </data>
+  <data name="&gt;&gt;JobText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobText.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;JobText.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="JobView.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <metadata name="JobNumber.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="JobNumber.HeaderText" xml:space="preserve">
+    <value>Job Number</value>
+  </data>
+  <metadata name="DateOrder.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="DateOrder.HeaderText" xml:space="preserve">
+    <value>Order Date</value>
+  </data>
+  <metadata name="FileName.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="FileName.HeaderText" xml:space="preserve">
+    <value>File Name</value>
+  </data>
+  <data name="JobView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 72</value>
+  </data>
+  <data name="JobView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>515, 188</value>
+  </data>
+  <data name="JobView.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;JobView.Name" xml:space="preserve">
+    <value>JobView</value>
+  </data>
+  <data name="&gt;&gt;JobView.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;JobView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;JobView.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="PathDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8pt</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>18, 267</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>(C) Daniel Dubaj 2007</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>312, 267</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>218, 13</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>this software is released under the GNU GPL</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>542, 285</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAHB4AAAEAGAB4CgAAFgAAACgAAAAcAAAAPAAAAAEAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAABVVFV7ent8e3t8e3t8e3t8e3t8e3t8e3t8e3t8e3t8e3t8e3t8e3t8e3t8e3t8e3t8e3t8
+        e3t8e3t8e3t8e3t8e3t5d3g8PDwAAAAAAAAAAACOjI20sbK6t7i9uru9u7u9u7u9u7u9u7u9u7u9u7u9
+        u7u9u7u9u7u9u7u9u7u9u7u9u7u9u7u9u7u9u7u9u7u9u7u8ubq4tbayr7BlY2QAAABYV1i0sbK/vL3G
+        w8TKx8jKx8jKx8jKx8jKx8jKx8jKx8jKx8jKx8jKx8jKx8jKx8jKx8jKx8jKx8jKx8jKx8jKx8jKx8jJ
+        xsfFwsO8ubqrqKknJyd8e3u6uLjHxMXOy8zQzc7Qzc7Qzc7Qzc7Qzc7Qzc7Qzc7Qzc7Qzc7Qzc7Qzc7Q
+        zc7Qzc7Qzc7Qzc7Qzc7Qzc7Qzc7Qzc7PzM3MycrDwcG2tLVHRkeHhYa/vL3LyMnQzc7Qzc7Qzc7Qzc7Q
+        zc7Qzc7Qzc7Qzc7Qzc7Qzc7Qzc7Qzc7Qzc7Qzc7Qzc7Qzc7Qzc7Qzc7Qzc7Qzc7Qzc7PzM3HxMW5trdH
+        R0eLiYrGw8TRz9DW09TW09TW09TW09TW09TW09TW09TW09TW09TW09TW09TW09TW09TW09TW09TW09TW
+        09TW09TW09TW09TW09TU0tPMysu+vLxISEiPjo7OzM3a2Nne3N3e3N3e3N3e3N3e3N3e3N3e3N3e3N3e
+        3N3e3N3e3N3e3N3e3N3e3N3e3N3e3N3e3N3e3N3e3N3e3N3e3N3c2tvU0tPFw8RKSkqTkpLV09Ti4OHm
+        5OXm5OXm5OXm5OXm5OXm5OXm5OXm5OXm5OXm5OXm5OXm5OXm5OXm5OXm5OXm5OXm5OXm5OXm5OXm5OXm
+        5OXk4uPb2trLyspMS0yXlpbd3Nzq6enu7e3u7e3u7e3u7e3u7e3u7e3u7e3u7e3u7e3u7e3u7e3u7e3u
+        7e3u7e3u7e3u7e3u7e3u7e3u7e3u7e3u7e3r6uri4eHS0tJNTU2amprk4+Py8vL29vb29vb29vb29vb2
+        9vb29vb29vb29vb29vb29vb29vb29vb29vb29vb29vb29vb29vb29vb29vb19fXr5+DRyLfY2NjY2NhP
+        T0+fnp/r6uv5+fn+/f7+/f7+/f7+/f7+/f7+/f7+/f7+/f7+/f7+/f7+/f7+/f7+/f7+/f7+/f7+/f7+
+        /f79/f329fPbzrW/s566rZbFwbnd3N1RUVGfn5/s7Oz6+vr/////////////////////////////////
+        ///////////////////////////////7+/rl2sbFuJ62s6+4sqfLvKDh3NLg4OBRUVGfn5/s7Oz6+vr/
+        ///////////////////////////////////////////////////////9/f3t5tnMvaG3s6m2tK/Ftpvj
+        2sf49/fz8/Ph4eFRUVGfn5/s7Oz6+vr////////7+/vu6+Xh2s3c1sje29Tr6+v5+fn////////////+
+        /v7y7ufTxqu6saC2tLK/s53bzrX29fT+/v79/f3z8/Ph4eFRUVGfn5/s7Oz6+vr////z7uXPwaS9sZy9
+        r5e9sJi6sJq/sZTMx7zt7e329vb19PLcz7W/tJ22tLO7saDTxajx7uj9/f3////////9/f3z8/Ph4eFR
+        UVGfn5/s7Oz6+vrw6drAs5rKvqzl18Pv5d7v5t/m2MbMwa67rpbCsIvEtJPAsZS2tLG5s6fMvaDr5tv8
+        /Pz////////////////9/f3z8/Ph4eFRUVGfn5/s7Oz28+3FuJ7Pwqzu5dzx6eP07un28e317+vw59/U
+        xrC8rIu5sJ+6rpfFtpnj28v6+vn////////////////////////9/f3z8/Ph4eFRUVGfn5/s7Ozh1LvA
+        tZ/t49nw5+Hw6OLx6eP07en59vP59vPv5d3EuKK9q4rBsI3p6Of+/v7/////////////////////////
+        ///9/f3z8/Ph4eFRUVGfn5/s7OzOwajSxK7v5t/v5t/v5t/v5t/v5t/z7ej8+vn17+rXyrS7rI7Wz8L8
+        /Pz////////////////////////////////9/f3z8/Ph4eFRUVGfn5/r6+rIvabYy7Xv5t/v5t/v5t/v
+        5t/v5t/v5t/7+ff38u7g0bu6r5rY1tL+/v7////////////////////////////////9/f3z8/Ph4eFR
+        UVGenp7q6urMwKfTxrHv5t/v5t/v5t/v5t/v5t/v5t/7+fj17+vazLe7r5jd3dz9/f39/f39/f39/f39
+        /f39/f39/f39/f39/f37+/vx8fHf399QUFCcnJzm5ubcz7bCt6Pu5Nzv5t/v5t/v5t/v5t/y6+X6+Pbv
+        5+DIvKa/spfp6en5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn5+fn39/fu7u7c3NxQUFCamprj4+Pt6eHB
+        tZzWyLLv5t7v5t/v5t/y6uX28e3w6OLcz7u7r5rRyrzy8vL19fX19fX19fX19fX19fX19fX19fX19fX1
+        9fXz8/Pq6urY2NhPT0+YmJjf39/t7e3l28e+s53RxbLr4NLv5t/w5+Dt4tnXy7q7sp/KvqXp6enx8fHx
+        8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHv7+/m5ubV1dVOTk6Wlpba2tro6Ojt7e3l3c7JvKG8sp3D
+        uanDuqu9sp3Bs5jVyrbo6Ojt7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3r6+vi4uLS0tJN
+        TU2RkZHU1NTj4+Pp6enp6enp6Ofj3M/b0LnZzbXe1cPk4+Hp6enp6enp6enp6enp6enp6enp6enp6enp
+        6enp6enp6enp6enp6enn5+fe3t7Nzc1MTEyCgoLLy8vZ2dni4uLk5OTk5OTk5OTk5OTk5OTk5OTk5OTk
+        5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTk5OTg4ODV1dXHx8dJSUlCQkK/v7/Ly8vT
+        09PX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fW
+        1tbR0dHIyMisrKwXFxcAAABpaWm0tLTBwcHExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTE
+        xMTExMTExMTExMTExMTExMTExMTExMTDw8PAwMCpqak+Pj4AAAAAAAACAgIoKChHR0dHR0dHR0dHR0dH
+        R0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dHR0dFRUUXFxcAAAAA
+        AADAAAAwgAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAEIAA
+        ADA=
+</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>400, 200</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>JobFinder v1.0</value>
+  </data>
+  <data name="&gt;&gt;JobNumber.Name" xml:space="preserve">
+    <value>JobNumber</value>
+  </data>
+  <data name="&gt;&gt;JobNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DateOrder.Name" xml:space="preserve">
+    <value>DateOrder</value>
+  </data>
+  <data name="&gt;&gt;DateOrder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FileName.Name" xml:space="preserve">
+    <value>FileName</value>
+  </data>
+  <data name="&gt;&gt;FileName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PathDialog.Name" xml:space="preserve">
+    <value>PathDialog</value>
+  </data>
+  <data name="&gt;&gt;PathDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>JobFinder</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
